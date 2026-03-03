@@ -1,0 +1,386 @@
+version: 1
+preferences:
+  autoPropagatePin: false
+nodes:
+  - name: root
+    label: Lave-linge LL800
+    description: Lave-linge frontal 8 kg, 1400 tr/min — repo produit (source de vérité de la traçabilité).
+    readonly: false
+    objectTypes:
+      - name: exigence-produit
+        label: Exigence Produit
+        color: '#7c3aed'
+        prefix: PRD
+        category: requirement
+        fields:
+          - &ref_0
+            name: statement
+            label: Énoncé (EARS)
+            type: richtext
+            validator: EARS
+            required: true
+          - &ref_1
+            name: priority
+            label: Priorité
+            type: enum
+            values:
+              - high
+              - medium
+              - low
+            required: true
+            default: medium
+          - name: source
+            label: Source
+            type: enum
+            values:
+              - Marketing
+              - Normes
+              - Retour terrain
+              - Réglementation
+          - name: marches
+            label: Marchés
+            type: multi_enum
+            values:
+              - EU
+              - US
+              - CN
+              - JP
+          - name: claim
+            label: Argument marketing (claim)
+            type: boolean
+            default: false
+          - name: kpi_cible
+            label: KPI cible
+            type: text
+            placeholder: ex. ≤ 45 L
+          - name: echeance
+            label: Échéance
+            type: date
+          - name: responsable
+            label: Responsable
+            type: user
+          - name: reference_client
+            label: Réf. demande client
+            type: text
+            validator: regex:^CLI-[0-9]{4}$
+            placeholder: CLI-0000
+          - name: rationale
+            label: Justification
+            type: richtext
+          - &ref_2
+            name: acceptanceCriteria
+            label: Critères d'acceptance
+            type: richtext
+        statuses:
+          - &ref_3
+            name: draft
+            label: Brouillon
+            color: '#475569'
+          - &ref_4
+            name: review
+            label: En review
+            color: '#b45309'
+          - &ref_5
+            name: approved
+            label: Approuvé
+            color: '#16a34a'
+            isApproval: true
+          - name: rejected
+            label: Rejetée
+            color: '#dc2626'
+            isTerminal: true
+          - &ref_6
+            name: obsolete
+            label: Obsolète
+            color: '#6b7280'
+            isTerminal: true
+      - name: exigence-systeme
+        label: Exigence Système
+        color: '#2563eb'
+        prefix: SYS
+        category: requirement
+        fields:
+          - *ref_0
+          - *ref_1
+          - &ref_9
+            name: securite
+            label: Exigence de sécurité
+            type: boolean
+            default: false
+          - name: domaine
+            label: Domaine
+            type: enum
+            values:
+              - SW
+              - HW
+              - MECA
+              - HYDRAU
+              - THERMIQUE
+          - *ref_2
+          - name: diagramme
+            label: Diagramme de référence
+            type: drawio
+          - name: notes
+            label: Notes internes
+            type: textarea
+          - name: derniere_revue
+            label: Dernière revue
+            type: datetime
+        statuses: &ref_7
+          - *ref_3
+          - *ref_4
+          - *ref_5
+          - *ref_6
+      - name: test-systeme
+        label: Test Système
+        color: '#0891b2'
+        prefix: TSYS
+        category: test
+        fields:
+          - name: niveau
+            label: Niveau
+            type: enum
+            values:
+              - unitaire
+              - intégration
+              - système
+              - endurance
+            required: true
+          - name: duree_min
+            label: Durée estimée (min)
+            type: number
+          - name: destructif
+            label: Test destructif
+            type: boolean
+            default: false
+          - name: moyens
+            label: Moyens d'essai
+            type: multi_enum
+            values:
+              - Banc hydraulique
+              - Chambre climatique
+              - Balance
+              - Wattmètre
+              - Sonomètre
+              - Tachymètre
+        statuses: &ref_8
+          - name: draft
+            label: Brouillon
+            color: '#475569'
+          - name: review
+            label: En review
+            color: '#b45309'
+          - name: approved
+            label: Approuvé
+            color: '#16a34a'
+            isApproval: true
+          - name: obsolete
+            label: Obsolète
+            color: '#6b7280'
+            isTerminal: true
+      - name: campagne-produit
+        label: Campagne Produit
+        prefix: CAMP
+        category: campaign
+        fields:
+          - name: jalon
+            label: Jalon
+            type: enum
+            values:
+              - EVT
+              - DVT
+              - PVT
+          - name: lieu
+            label: Lieu d'essai
+            type: text
+          - name: description
+            label: Description
+            type: richtext
+    children:
+      - name: hydraulique
+        label: Sous-système hydraulique
+        description: >-
+          Composant local — arrivée d'eau, cuve, capteur de niveau. Héberge la pompe de vidange (repo séparé,
+          localParent).
+        readonly: false
+        objectTypes:
+          - name: exigence-hydraulique
+            label: Exigence Hydraulique
+            prefix: HYD
+            category: requirement
+            fields:
+              - *ref_0
+              - *ref_1
+              - name: debit_l_min
+                label: Débit (L/min)
+                type: number
+              - *ref_2
+            statuses: *ref_7
+          - name: test-hydraulique
+            label: Test Hydraulique
+            prefix: THYD
+            category: test
+            fields:
+              - name: banc
+                label: Banc
+                type: text
+            statuses: *ref_8
+        children:
+          - name: electrovannes
+            label: Électrovannes
+            description: Composant local de 3e niveau (produit › hydraulique › électrovannes).
+            readonly: false
+            objectTypes:
+              - name: exigence-electrovanne
+                label: Exigence Électrovanne
+                prefix: EV
+                category: requirement
+                fields:
+                  - *ref_0
+                  - *ref_1
+                  - *ref_9
+                statuses: *ref_7
+      - name: carte-commande
+        label: Carte de commande
+        description: >-
+          Carte électronique maîtresse : contrôleur du bus interne (repo interface) et maître du bus IHM (interface
+          locale).
+        readonly: false
+        objectTypes:
+          - name: exigence-carte
+            label: Exigence Carte
+            prefix: CC
+            category: requirement
+            fields:
+              - *ref_0
+              - *ref_1
+              - *ref_9
+              - name: composant_ref
+                label: Référence composant
+                type: text
+            statuses: *ref_7
+        implements:
+          - interface: if-bus-interne
+            roles:
+              - controller
+          - interface: bus-ihm
+            roles:
+              - maitre
+        children:
+          - name: logiciel
+            label: Logiciel de commande
+            readonly: false
+            objectTypes:
+              - name: exigence-logiciel
+                label: Exigence Logiciel
+                prefix: SW
+                category: requirement
+                fields:
+                  - *ref_0
+                  - *ref_1
+                  - *ref_9
+                  - name: module
+                    label: Module
+                    type: enum
+                    values:
+                      - FSM
+                      - Sécurité
+                      - IHM
+                      - Communication
+                      - Diagnostic
+                  - name: classe_logicielle
+                    label: Classe logicielle (IEC 60730)
+                    type: enum
+                    values:
+                      - A
+                      - B
+                      - C
+                statuses: *ref_7
+              - name: test-logiciel
+                label: Test Logiciel
+                prefix: TSW
+                category: test
+                fields:
+                  - name: automatise
+                    label: Automatisé
+                    type: boolean
+                    default: false
+                  - name: version_firmware
+                    label: Version firmware
+                    type: text
+                    validator: regex:^[0-9]+\.[0-9]+\.[0-9]+$
+                statuses: *ref_8
+      - name: bus-ihm
+        label: Bus IHM (interface locale)
+        description: 'Interface portée par un composant local : rôles maître/esclave, implémentée par la carte de commande et l''IHM.'
+        readonly: false
+        roles:
+          - name: maitre
+            label: Maître
+          - name: esclave
+            label: Esclave
+        objectTypes:
+          - name: exigence-bus-ihm
+            label: Exigence Bus IHM
+            prefix: BIHM
+            category: requirement
+            fields:
+              - *ref_0
+              - name: roles
+                label: Rôles concernés
+                type: multi_enum
+                values:
+                  - maitre
+                  - esclave
+            statuses: *ref_7
+      - name: ihm
+        label: IHM façade
+        readonly: false
+        objectTypes:
+          - name: exigence-ihm
+            label: Exigence IHM
+            prefix: IHM
+            category: requirement
+            fields:
+              - *ref_0
+              - *ref_1
+              - name: maquette
+                label: Maquette
+                type: richtext
+            statuses: *ref_7
+        implements:
+          - interface: bus-ihm
+            roles:
+              - esclave
+linkTypes:
+  - name: raffinement
+    labelSourceToTarget: est raffinée par
+    labelTargetToSource: raffine
+    sourceRefs:
+      - root::exigence-produit
+    targetRefs:
+      - requirement
+  - name: implementation
+    labelSourceToTarget: est implémentée par
+    labelTargetToSource: implémente
+    sourceRefs:
+      - requirement
+    targetRefs:
+      - requirement
+  - name: verification
+    labelSourceToTarget: vérifie
+    labelTargetToSource: est vérifiée par
+    sourceRefs:
+      - test
+    targetRefs:
+      - requirement
+  - name: implements-interface
+    labelSourceToTarget: implémente l'exigence d'interface
+    labelTargetToSource: est implémentée (interface) par
+    sourceRefs:
+      - requirement
+    targetRefs:
+      - requirement
+  - name: relation
+    labelSourceToTarget: est en relation avec
+    labelTargetToSource: est en relation avec

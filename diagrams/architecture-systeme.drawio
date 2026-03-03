@@ -1,0 +1,22 @@
+<mxfile host="polenta-demo" agent="generate.mjs" version="24.0.0">
+  <diagram id="f980762c-1877-4eb0-aeae-f6c0834dc0c6" name="Architecture système">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="node-carte-commande" value="Carte de commande" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="360" y="160" width="180" height="80" as="geometry" /></mxCell>
+        <mxCell id="node-moteur" value="Moteur BLDC &amp; onduleur&lt;br&gt;&lt;i&gt;comp-moteur&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="660" y="40" width="140" height="60" as="geometry" /></mxCell>
+        <mxCell id="node-pompe" value="Pompe de vidange&lt;br&gt;&lt;i&gt;comp-pompe-vidange&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="660" y="170" width="140" height="60" as="geometry" /></mxCell>
+        <mxCell id="node-wifi" value="Module Wi-Fi&lt;br&gt;&lt;i&gt;comp-module-wifi&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="660" y="300" width="140" height="60" as="geometry" /></mxCell>
+        <mxCell id="node-electrovannes" value="Électrovannes" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="80" y="60" width="140" height="60" as="geometry" /></mxCell>
+        <mxCell id="node-ihm" value="IHM façade" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="80" y="280" width="140" height="60" as="geometry" /></mxCell>
+        <mxCell id="node-bus" value="Bus interne&lt;br&gt;&lt;i&gt;if-bus-interne&lt;/i&gt;" style="shape=parallelogram;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1"><mxGeometry x="380" y="360" width="140" height="40" as="geometry" /></mxCell>
+        <mxCell id="e-cc-mot" value="bus" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="node-carte-commande" target="node-moteur"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e-cc-pompe" value="triac" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="node-carte-commande" target="node-pompe"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e-cc-wifi" value="bus" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="node-carte-commande" target="node-wifi"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e-cc-ev" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="node-carte-commande" target="node-electrovannes"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e-cc-ihm" value="bus IHM" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="node-carte-commande" target="node-ihm"><mxGeometry relative="1" as="geometry" /></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

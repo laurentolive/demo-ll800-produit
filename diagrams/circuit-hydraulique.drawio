@@ -1,0 +1,22 @@
+<mxfile host="polenta-demo" agent="generate.mjs" version="24.0.0">
+  <diagram id="2a230f2f-6635-4048-a2f8-607ca2fba70b" name="Circuit hydraulique">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="node-arrivee" value="Arrivée d'eau" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="40" y="60" width="140" height="60" as="geometry" /></mxCell>
+        <mxCell id="node-ev-prelavage" value="EV prélavage" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="240" y="20" width="140" height="60" as="geometry" /></mxCell>
+        <mxCell id="node-ev-lavage" value="EV lavage" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="240" y="110" width="140" height="60" as="geometry" /></mxCell>
+        <mxCell id="node-cuve" value="Cuve" style="shape=cylinder3;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="460" y="60" width="160" height="100" as="geometry" /></mxCell>
+        <mxCell id="node-capteur-niveau" value="Capteur de niveau" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="680" y="30" width="140" height="60" as="geometry" /></mxCell>
+        <mxCell id="node-pompe" value="Pompe de vidange" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="460" y="230" width="140" height="60" as="geometry" /></mxCell>
+        <mxCell id="h1" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="node-arrivee" target="node-ev-prelavage"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="h2" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="node-arrivee" target="node-ev-lavage"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="h3" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="node-ev-prelavage" target="node-cuve"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="h4" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="node-ev-lavage" target="node-cuve"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="h5" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="node-cuve" target="node-capteur-niveau"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="h6" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="node-cuve" target="node-pompe"><mxGeometry relative="1" as="geometry" /></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
