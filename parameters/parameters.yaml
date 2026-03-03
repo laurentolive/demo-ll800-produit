@@ -1,0 +1,44 @@
+parameters:
+  capacite_kg:
+    value: '8'
+    unit: kg
+    description: Charge nominale de linge sec (programme Coton)
+  classe_energetique:
+    value: A
+    description: Classe énergétique visée (règlement UE 2019/2014)
+  consommation_eau_eco:
+    value: '45'
+    unit: L
+    description: Consommation d'eau max. du programme Eco 40-60 à pleine charge
+  duree_programme_eco:
+    value: '225'
+    unit: min
+    description: Durée max. du programme Eco 40-60
+  niveau_sonore_essorage:
+    value: '74'
+    unit: dB(A)
+    description: Puissance acoustique max. en essorage
+  pression_eau_max:
+    value: '1'
+    unit: MPa
+    description: Pression d'alimentation maximale
+  pression_eau_min:
+    value: '0.05'
+    unit: MPa
+    description: Pression d'alimentation minimale
+  puissance_veille_max:
+    value: '0.5'
+    unit: W
+    description: Consommation max. en veille
+  temperature_max_lavage:
+    value: '90'
+    unit: °C
+    description: Température maximale de lavage
+  tension_alimentation:
+    value: '230'
+    unit: V
+    description: Tension secteur nominale
+  vitesse_essorage:
+    value: '1200'
+    unit: tr/min
+    description: Vitesse d'essorage maximale annoncée

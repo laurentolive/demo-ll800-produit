@@ -1,0 +1,14 @@
+dependencies:
+  - name: comp-moteur
+    url: https://github.com/laurentolive/demo-ll800-comp-moteur.git
+    pin: main
+  - name: comp-pompe-vidange
+    url: https://github.com/laurentolive/demo-ll800-comp-pompe-vidange.git
+    pin: main
+    localParent: hydraulique
+  - name: comp-module-wifi
+    url: https://github.com/laurentolive/demo-ll800-comp-module-wifi.git
+    pin: df69db8af6344dc544a0a25cdaca93770a626275
+  - name: if-bus-interne
+    url: https://github.com/laurentolive/demo-ll800-if-bus-interne.git
+    pin: main
