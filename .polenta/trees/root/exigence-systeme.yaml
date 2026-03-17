@@ -1,0 +1,84 @@
+nodeId: root
+typeId: exigence-systeme
+root:
+  - id: bd0fdab5-7184-4e19-a456-68d48c0a7b52
+    kind: folder
+    name: Architecture
+    children:
+      - id: 39b6d051-1b9d-42bd-a392-709000605e55
+        kind: item
+        name: Architecture fonctionnelle
+        objectId: SYS-0001
+        children: []
+  - id: bdf4661d-35af-4f2a-a27b-60ae03d042c9
+    kind: folder
+    name: Cycle de lavage
+    children:
+      - id: 300e21b6-753d-49d8-a254-f37bb08a2242
+        kind: item
+        name: Profil de vitesse d'essorage
+        objectId: SYS-0002
+        children: []
+      - id: 0ff260e6-58f0-4c78-a89e-2d4eb7ca0fc4
+        kind: item
+        name: Machine d'états du cycle
+        objectId: SYS-0003
+        children: []
+      - id: 1855e3f0-2210-4cf8-ae0c-f4639db813f5
+        kind: item
+        name: Remplissage
+        objectId: SYS-0005
+        children: []
+      - id: c3a21136-37ba-419c-afca-f7ab39471fbe
+        kind: item
+        name: Vidange
+        objectId: SYS-0006
+        children: []
+  - id: 38b956e0-f56f-4f5f-a9fd-c3c1d5985a04
+    kind: folder
+    name: Sécurité
+    children:
+      - id: 7438214c-6757-4d53-aa30-48e2b9ee6496
+        kind: item
+        name: Détection de balourd
+        objectId: SYS-0004
+        children: []
+      - id: 1e9ea94c-1e3f-4d14-ad62-292570f6bfdd
+        kind: item
+        name: Surchauffe de la résistance
+        objectId: SYS-0008
+        children: []
+      - id: 4f067f7f-5a2d-4cdf-a1a3-8a6411efc1f3
+        kind: item
+        name: Reprise après coupure secteur
+        objectId: SYS-0010
+        children: []
+      - id: 58de4e53-24a2-4c94-aa3e-0fd74c46825c
+        kind: item
+        name: Détection de fermeture du hublot
+        objectId: SYS-0012
+        children: []
+      - id: 2f8439f5-72c3-4700-a8f2-e6a420aeaa58
+        kind: item
+        name: Commande du verrou de hublot
+        objectId: SYS-0014
+        children: []
+  - id: f8dbdf93-4cdc-457f-ad29-986b82796ffd
+    kind: folder
+    name: Énergie
+    children:
+      - id: 698dcd06-e881-46c0-a081-53ba6dfe514e
+        kind: item
+        name: Régulation de température de l'eau
+        objectId: SYS-0007
+        children: []
+      - id: 394e5031-e161-483b-a845-120fa759d377
+        kind: item
+        name: Consommation en veille
+        objectId: SYS-0009
+        children: []
+      - id: 59f5e874-181b-4ab8-a398-a848bf6af52f
+        kind: item
+        name: Bruit de la pompe de vidange
+        objectId: SYS-0011
+        children: []

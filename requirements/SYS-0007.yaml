@@ -1,0 +1,14 @@
+id: SYS-0007
+projectId: ''
+branchId: ''
+objectTypeRef: root::exigence-systeme
+title: Régulation de température de l'eau
+status: draft
+version: 1
+fields:
+  statement: |-
+    WHILE la phase de lavage à 60 °C est active
+    THE système SHALL réguler la température de l'eau à ± 3 °C.
+  priority: medium
+  domaine: THERMIQUE
+jiraLinks: []

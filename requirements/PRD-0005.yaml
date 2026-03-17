@@ -1,0 +1,17 @@
+id: PRD-0005
+projectId: ''
+branchId: ''
+objectTypeRef: root::exigence-produit
+title: Durée du programme Eco 40-60
+status: draft
+version: 1
+fields:
+  statement: |-
+    WHEN le programme Eco 40-60 est lancé à pleine charge
+    THE lave-linge SHALL terminer le cycle en moins de {duree_programme_eco}.
+  priority: medium
+  source: Réglementation
+  marches: EU
+  kpi_cible: ≤ 3 h 45
+  acceptanceCriteria: '- [ ] Durée mesurée ≤ {duree_programme_eco}'
+jiraLinks: []

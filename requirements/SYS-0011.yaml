@@ -1,0 +1,14 @@
+id: SYS-0011
+projectId: ''
+branchId: ''
+objectTypeRef: root::exigence-systeme
+title: Bruit de la pompe de vidange
+status: draft
+version: 1
+fields:
+  statement: |-
+    WHILE la pompe de vidange fonctionne
+    THE système SHALL limiter le bruit émis à {comp-pompe-vidange::bruit_max}.
+  priority: low
+  domaine: MECA
+jiraLinks: []

@@ -1,0 +1,18 @@
+id: PRD-0010
+projectId: ''
+branchId: ''
+objectTypeRef: root::exigence-produit
+title: Pilotage à distance par application
+status: draft
+version: 1
+fields:
+  statement: |-
+    WHERE le module Wi-Fi est appairé
+    THE lave-linge SHALL permettre le démarrage et le suivi du cycle depuis l'application mobile.
+  priority: low
+  source: Marketing
+  marches: EU, CN
+  claim: true
+  reference_client: CLI-0042
+  acceptanceCriteria: '- [ ] Démarrage à distance < 5 s après l''ordre'
+jiraLinks: []

@@ -1,0 +1,18 @@
+id: PRD-0004
+projectId: ''
+branchId: ''
+objectTypeRef: root::exigence-produit
+title: Niveau sonore en essorage
+status: draft
+version: 1
+fields:
+  statement: |-
+    WHILE le lave-linge essore à sa vitesse maximale
+    THE lave-linge SHALL émettre une puissance acoustique inférieure à {niveau_sonore_essorage}.
+  priority: medium
+  source: Réglementation
+  marches: EU
+  claim: true
+  kpi_cible: ≤ 74 dB(A)
+  acceptanceCriteria: '- [ ] Mesure en salle semi-anéchoïque selon IEC 60704-2-4'
+jiraLinks: []

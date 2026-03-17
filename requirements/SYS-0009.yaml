@@ -1,0 +1,21 @@
+id: SYS-0009
+projectId: ''
+branchId: ''
+objectTypeRef: root::exigence-systeme
+title: Consommation en veille
+status: draft
+version: 1
+fields:
+  statement: |-
+    WHILE le lave-linge est en veille
+    THE système SHALL consommer moins de {puissance_veille_max}.
+
+    | Mode | Puissance max. | Mesure |
+    | --- | --- | --- |
+    | Arrêt | 0,3 W | Wattmètre classe 0,5 |
+    | Veille | {puissance_veille_max} | Wattmètre classe 0,5 |
+    | Veille réseau (Wi-Fi) | 2 W | Wattmètre classe 0,5 |
+  priority: medium
+  domaine: HW
+  acceptanceCriteria: '- [ ] Mesure sur 10 min selon EN 50564'
+jiraLinks: []

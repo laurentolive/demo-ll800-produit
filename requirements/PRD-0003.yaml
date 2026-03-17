@@ -1,0 +1,20 @@
+id: PRD-0003
+projectId: ''
+branchId: ''
+objectTypeRef: root::exigence-produit
+title: Consommation d'eau du programme Eco 40-60
+status: draft
+version: 1
+fields:
+  statement: |-
+    WHEN le programme Eco 40-60 est exécuté à pleine charge
+    THE lave-linge SHALL consommer au plus {consommation_eau_eco} d'eau.
+  priority: high
+  source: Réglementation
+  marches: EU
+  claim: false
+  kpi_cible: ≤ 45 L
+  responsable: Hugo Bernard
+  rationale: Règlement (UE) 2019/2023 — écoconception des lave-linge ménagers.
+  acceptanceCriteria: '- [ ] Mesure selon EN 60456, moyenne de 3 cycles ≤ {consommation_eau_eco}'
+jiraLinks: []

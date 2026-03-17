@@ -1,0 +1,24 @@
+id: SYS-0005
+projectId: ''
+branchId: ''
+objectTypeRef: root::exigence-systeme
+title: Remplissage
+status: draft
+version: 1
+fields:
+  statement: >-
+    WHEN la phase de remplissage démarre
+
+    THE système SHALL atteindre le niveau cible en moins de 3 min pour une pression d'alimentation comprise entre
+    {pression_eau_min} et {pression_eau_max}.
+
+
+    ```drawio
+
+    {"path":"diagrams/circuit-hydraulique.drawio","nodeId":"node-cuve","crop":{"x":200,"y":0,"width":520,"height":240}}
+
+    ```
+  priority: medium
+  domaine: HYDRAU
+  diagramme: diagrams/circuit-hydraulique.drawio
+jiraLinks: []

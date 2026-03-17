@@ -1,0 +1,18 @@
+id: PRD-0009
+projectId: ''
+branchId: ''
+objectTypeRef: root::exigence-produit
+title: Protection anti-débordement
+status: draft
+version: 1
+fields:
+  statement: |-
+    IF le niveau d'eau dépasse le niveau de sécurité
+    THEN THE lave-linge SHALL fermer les électrovannes et activer la pompe de vidange en moins de 2 s.
+  priority: high
+  source: Normes
+  marches: EU, US, CN, JP
+  acceptanceCriteria: |-
+    - [ ] Électrovannes fermées < 2 s
+    - [ ] Aucune fuite sur 10 déclenchements
+jiraLinks: []

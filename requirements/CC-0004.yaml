@@ -1,0 +1,11 @@
+id: CC-0004
+projectId: ''
+branchId: ''
+objectTypeRef: carte-commande::exigence-carte
+title: Contrôleur du bus interne
+status: draft
+version: 1
+fields:
+  statement: THE carte de commande SHALL assurer le rôle de contrôleur du bus interne conformément au protocole if-bus-interne.
+  priority: high
+jiraLinks: []

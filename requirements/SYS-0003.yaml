@@ -1,0 +1,23 @@
+id: SYS-0003
+projectId: ''
+branchId: ''
+objectTypeRef: root::exigence-systeme
+title: Machine d'états du cycle
+status: draft
+version: 1
+fields:
+  statement: >-
+    THE logiciel de commande SHALL enchaîner les phases Remplissage → Lavage → Rinçage → Essorage → Fin conformément à
+    la machine d'états ci-dessous.
+
+
+    ```drawio
+
+    {"path":"diagrams/machine-etats-cycle.drawio","nodeId":"node-etat-lavage","width":640}
+
+    ```
+  priority: high
+  domaine: SW
+  diagramme: diagrams/machine-etats-cycle.drawio
+  acceptanceCriteria: '- [ ] Chaque transition du diagramme est couverte par un test logiciel'
+jiraLinks: []

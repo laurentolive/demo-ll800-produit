@@ -1,0 +1,16 @@
+id: SYS-0004
+projectId: ''
+branchId: ''
+objectTypeRef: root::exigence-systeme
+title: Détection de balourd
+status: draft
+version: 1
+fields:
+  statement: |-
+    IF le balourd mesuré dépasse 400 g·cm à 300 tr/min
+    THEN THE système SHALL redistribuer le linge et limiter la vitesse d'essorage à 600 tr/min.
+  priority: high
+  securite: true
+  domaine: SW
+  acceptanceCriteria: '- [ ] Balourd de 500 g·cm détecté sur 10 essais sur 10'
+jiraLinks: []

@@ -1,0 +1,15 @@
+id: SYS-0012
+projectId: ''
+branchId: ''
+objectTypeRef: root::exigence-systeme
+title: Détection de fermeture du hublot
+status: draft
+version: 1
+fields:
+  statement: |-
+    WHEN l'utilisateur ferme le hublot
+    THE système SHALL détecter la fermeture pour un effort inférieur à {effort_fermeture_hublot}.
+  priority: high
+  securite: true
+  domaine: MECA
+jiraLinks: []

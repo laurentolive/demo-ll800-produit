@@ -1,0 +1,28 @@
+id: SYS-0001
+projectId: ''
+branchId: ''
+objectTypeRef: root::exigence-systeme
+title: Architecture fonctionnelle
+status: draft
+version: 1
+fields:
+  statement: >-
+    THE lave-linge SHALL s'articuler autour d'une carte de commande maîtresse pilotant le moteur, la pompe de vidange,
+    les électrovannes, l'IHM et le module Wi-Fi via le bus interne.
+
+
+    ```drawio
+
+    {"path":"diagrams/architecture-systeme.drawio"}
+
+    ```
+  priority: high
+  securite: false
+  domaine: HW
+  diagramme: diagrams/architecture-systeme.drawio
+  acceptanceCriteria: '- [ ] Chaque bloc du diagramme a au moins une exigence allouée'
+  notes: |-
+    Diagramme de référence maintenu par H. Bernard.
+    Toute modification passe en revue système.
+  derniere_revue: '2026-04-24T16:00:00.000Z'
+jiraLinks: []

@@ -1,0 +1,18 @@
+nodeId: electrovannes
+typeId: exigence-electrovanne
+root:
+  - id: 67331222-876e-4267-ad1c-5a6c1e9f9e81
+    kind: item
+    name: Électrovanne de prélavage
+    objectId: EV-0001
+    children: []
+  - id: dedf577b-2c9a-46bb-ab5f-e1c60554a761
+    kind: item
+    name: Électrovanne de lavage
+    objectId: EV-0002
+    children: []
+  - id: b8c28a63-0d1d-4a8e-ae84-9b99cec290d5
+    kind: item
+    name: Fermeture sans alimentation
+    objectId: EV-0003
+    children: []

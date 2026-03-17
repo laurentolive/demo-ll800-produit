@@ -1,0 +1,16 @@
+id: SYS-0008
+projectId: ''
+branchId: ''
+objectTypeRef: root::exigence-systeme
+title: Surchauffe de la résistance
+status: draft
+version: 1
+fields:
+  statement: |-
+    IF la température de la résistance dépasse 110 °C
+    THEN THE système SHALL couper l'alimentation de la résistance en moins de 1 s.
+  priority: high
+  securite: true
+  domaine: THERMIQUE
+  acceptanceCriteria: '- [ ] Coupure mesurée < 1 s sur 5 essais'
+jiraLinks: []

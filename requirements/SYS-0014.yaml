@@ -1,0 +1,16 @@
+id: SYS-0014
+projectId: ''
+branchId: ''
+objectTypeRef: root::exigence-systeme
+title: Commande du verrou de hublot
+status: draft
+version: 1
+fields:
+  statement: |-
+    IF le tambour tourne ou si la température de l'eau dépasse 50 °C
+    THEN THE carte de commande SHALL maintenir le verrou de hublot alimenté.
+  priority: high
+  securite: true
+  domaine: HW
+  diagramme: diagrams/architecture-systeme.drawio
+jiraLinks: []

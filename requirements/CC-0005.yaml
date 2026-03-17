@@ -1,0 +1,11 @@
+id: CC-0005
+projectId: ''
+branchId: ''
+objectTypeRef: carte-commande::exigence-carte
+title: Maître du bus IHM
+status: draft
+version: 1
+fields:
+  statement: THE carte de commande SHALL assurer le rôle de maître du bus IHM.
+  priority: medium
+jiraLinks: []

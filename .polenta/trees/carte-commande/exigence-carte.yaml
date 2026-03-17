@@ -1,0 +1,32 @@
+nodeId: carte-commande
+typeId: exigence-carte
+root:
+  - id: a2a71e1d-bbe7-4e9c-ae25-71ce1af74cd7
+    kind: item
+    name: Microcontrôleur principal
+    objectId: CC-0001
+    children: []
+  - id: 13596d65-e94d-4dce-a09f-c85d63fbc369
+    kind: item
+    name: Alimentation secteur
+    objectId: CC-0002
+    children: []
+  - id: 69afabd6-0b83-40b3-a276-cf31cad9bdbd
+    kind: item
+    name: Pilotage de la résistance
+    objectId: CC-0003
+    children: []
+  - id: 67ac0e29-d50e-4bc2-a96b-aff900f1b5a1
+    kind: folder
+    name: Interfaces
+    children:
+      - id: 3a0b7097-a723-4ac8-a5ac-32174077180e
+        kind: item
+        name: Contrôleur du bus interne
+        objectId: CC-0004
+        children: []
+      - id: b71cf7ea-b0a7-401e-a5c7-ba04c2cc9c79
+        kind: item
+        name: Maître du bus IHM
+        objectId: CC-0005
+        children: []

@@ -1,0 +1,23 @@
+nodeId: ihm
+typeId: exigence-ihm
+root:
+  - id: 9b7d9de6-016c-4930-abdd-7c2c17b23375
+    kind: item
+    name: Affichage du temps restant
+    objectId: IHM-0001
+    children: []
+  - id: e5000f10-a8f7-4055-a9ed-e3c019203c2e
+    kind: item
+    name: Touches capacitives
+    objectId: IHM-0002
+    children: []
+  - id: 4704484e-79c7-44d8-a702-9e34fdd19817
+    kind: item
+    name: Signal sonore de fin de cycle
+    objectId: IHM-0003
+    children: []
+  - id: 9c3273ea-0bf3-45e1-a8a0-44d23d09770c
+    kind: item
+    name: Conformité au bus IHM
+    objectId: IHM-0004
+    children: []

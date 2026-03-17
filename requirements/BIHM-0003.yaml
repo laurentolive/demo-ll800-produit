@@ -1,0 +1,13 @@
+id: BIHM-0003
+projectId: ''
+branchId: ''
+objectTypeRef: bus-ihm::exigence-bus-ihm
+title: Timeout de communication
+status: draft
+version: 1
+fields:
+  statement: |-
+    IF aucune trame n'est reçue pendant 500 ms
+    THEN THE participant du bus IHM SHALL signaler un défaut de communication.
+  roles: maitre, esclave
+jiraLinks: []

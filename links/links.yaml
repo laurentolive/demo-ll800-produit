@@ -1,0 +1,175 @@
+links:
+  - id: lnk_1773739800326_ggei
+    type: raffinement
+    sourceId: PRD-0002
+    targetId: SYS-0002
+    createdAt: '2026-03-17T09:30:00.000Z'
+    createdBy: Claire Martin
+  - id: lnk_1773739800017_fg1i
+    type: raffinement
+    sourceId: PRD-0003
+    targetId: SYS-0005
+    createdAt: '2026-03-17T09:30:00.000Z'
+    createdBy: Claire Martin
+  - id: lnk_1773739800162_gbud
+    type: raffinement
+    sourceId: PRD-0003
+    targetId: SYS-0007
+    createdAt: '2026-03-17T09:30:00.000Z'
+    createdBy: Claire Martin
+  - id: lnk_1773739800956_vlol
+    type: raffinement
+    sourceId: PRD-0004
+    targetId: SYS-0002
+    createdAt: '2026-03-17T09:30:00.000Z'
+    createdBy: Claire Martin
+  - id: lnk_1773739800403_dff7
+    type: raffinement
+    sourceId: PRD-0004
+    targetId: SYS-0011
+    createdAt: '2026-03-17T09:30:00.000Z'
+    createdBy: Claire Martin
+  - id: lnk_1773739800125_36lo
+    type: raffinement
+    sourceId: PRD-0005
+    targetId: SYS-0003
+    createdAt: '2026-03-17T09:30:00.000Z'
+    createdBy: Claire Martin
+  - id: lnk_1773739800613_nmdg
+    type: raffinement
+    sourceId: PRD-0006
+    targetId: SW-0004
+    createdAt: '2026-03-17T09:30:00.000Z'
+    createdBy: Claire Martin
+  - id: lnk_1773739800696_1b4f
+    type: raffinement
+    sourceId: PRD-0007
+    targetId: SW-0005
+    createdAt: '2026-03-17T09:30:00.000Z'
+    createdBy: Claire Martin
+  - id: lnk_1773739800040_yr45
+    type: raffinement
+    sourceId: PRD-0008
+    targetId: SYS-0014
+    createdAt: '2026-03-17T09:30:00.000Z'
+    createdBy: Claire Martin
+  - id: lnk_1773739800385_o7te
+    type: raffinement
+    sourceId: PRD-0009
+    targetId: SYS-0005
+    createdAt: '2026-03-17T09:30:00.000Z'
+    createdBy: Claire Martin
+  - id: lnk_1773739800880_c94c
+    type: raffinement
+    sourceId: PRD-0009
+    targetId: HYD-0002
+    createdAt: '2026-03-17T09:30:00.000Z'
+    createdBy: Claire Martin
+  - id: lnk_1773739800811_pbfs
+    type: raffinement
+    sourceId: PRD-0011
+    targetId: SW-0004
+    createdAt: '2026-03-17T09:30:00.000Z'
+    createdBy: Claire Martin
+  - id: lnk_1773739800832_59sn
+    type: implementation
+    sourceId: SYS-0001
+    targetId: CC-0001
+    createdAt: '2026-03-17T09:30:00.000Z'
+    createdBy: Hugo Bernard
+  - id: lnk_1773739800929_pep1
+    type: implementation
+    sourceId: SYS-0002
+    targetId: MOT-0001
+    createdAt: '2026-03-17T09:30:00.000Z'
+    createdBy: Hugo Bernard
+  - id: lnk_1773739800820_c7g7
+    type: implementation
+    sourceId: SYS-0002
+    targetId: FWM-0001
+    createdAt: '2026-03-17T09:30:00.000Z'
+    createdBy: Hugo Bernard
+  - id: lnk_1773739800870_g3qn
+    type: implementation
+    sourceId: SYS-0004
+    targetId: MOT-0005
+    createdAt: '2026-03-17T09:30:00.000Z'
+    createdBy: Hugo Bernard
+  - id: lnk_1773739800812_264b
+    type: implementation
+    sourceId: SYS-0004
+    targetId: FWM-0002
+    createdAt: '2026-03-17T09:30:00.000Z'
+    createdBy: Hugo Bernard
+  - id: lnk_1773739800235_nbvk
+    type: implementation
+    sourceId: SYS-0005
+    targetId: HYD-0001
+    createdAt: '2026-03-17T09:30:00.000Z'
+    createdBy: Hugo Bernard
+  - id: lnk_1773739800542_3i6e
+    type: implementation
+    sourceId: SYS-0005
+    targetId: EV-0002
+    createdAt: '2026-03-17T09:30:00.000Z'
+    createdBy: Hugo Bernard
+  - id: lnk_1773739800463_f0n3
+    type: implementation
+    sourceId: SYS-0006
+    targetId: POMP-0001
+    createdAt: '2026-03-17T09:30:00.000Z'
+    createdBy: Hugo Bernard
+  - id: lnk_1773739800324_qhgw
+    type: implementation
+    sourceId: SYS-0007
+    targetId: CC-0003
+    createdAt: '2026-03-17T09:30:00.000Z'
+    createdBy: Hugo Bernard
+  - id: lnk_1773739800746_bdmd
+    type: implementation
+    sourceId: SYS-0008
+    targetId: CC-0003
+    createdAt: '2026-03-17T09:30:00.000Z'
+    createdBy: Hugo Bernard
+  - id: lnk_1773739800195_u8r6
+    type: implementation
+    sourceId: SYS-0003
+    targetId: SW-0001
+    createdAt: '2026-03-17T09:30:00.000Z'
+    createdBy: Hugo Bernard
+  - id: lnk_1773739800567_s7rs
+    type: implementation
+    sourceId: SYS-0010
+    targetId: SW-0003
+    createdAt: '2026-03-17T09:30:00.000Z'
+    createdBy: Hugo Bernard
+  - id: lnk_1773739800770_gsq4
+    type: implementation
+    sourceId: SYS-0014
+    targetId: CC-0002
+    createdAt: '2026-03-17T09:30:00.000Z'
+    createdBy: Hugo Bernard
+  - id: lnk_1773739800505_15t4
+    type: implementation
+    sourceId: HYD-0001
+    targetId: EV-0001
+    createdAt: '2026-03-17T09:30:00.000Z'
+    createdBy: Hugo Bernard
+  - id: lnk_1773739800340_qhw3
+    type: implementation
+    sourceId: HYD-0001
+    targetId: EV-0002
+    createdAt: '2026-03-17T09:30:00.000Z'
+    createdBy: Hugo Bernard
+  - id: lnk_1773739800113_k5dw
+    type: implementation
+    sourceId: CC-0001
+    targetId: SW-0002
+    createdAt: '2026-03-17T09:30:00.000Z'
+    createdBy: Hugo Bernard
+  - id: lnk_1773739800853_t7h3
+    type: relation
+    sourceId: SYS-0004
+    targetId: SYS-0002
+    createdAt: '2026-03-17T09:30:00.000Z'
+    createdBy: Hugo Bernard

@@ -1,0 +1,19 @@
+id: PRD-0008
+projectId: ''
+branchId: ''
+objectTypeRef: root::exigence-produit
+title: Verrouillage du hublot
+status: draft
+version: 1
+fields:
+  statement: |-
+    IF la température de l'eau dépasse 50 °C ou si le tambour est en rotation
+    THEN THE lave-linge SHALL maintenir le hublot verrouillé.
+  priority: high
+  source: Normes
+  marches: EU, US, CN, JP
+  rationale: IEC 60335-2-7 §20 — accès aux parties mobiles.
+  acceptanceCriteria: |-
+    - [ ] Ouverture impossible à 51 °C
+    - [ ] Ouverture impossible tambour à 30 tr/min
+jiraLinks: []

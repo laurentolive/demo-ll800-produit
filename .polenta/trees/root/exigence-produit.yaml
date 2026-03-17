@@ -1,0 +1,74 @@
+nodeId: root
+typeId: exigence-produit
+root:
+  - id: ac80f3de-f9e7-49b9-a183-42fd8e357982
+    kind: folder
+    name: Performance
+    children:
+      - id: 509c47d5-bd46-4615-acf2-109e316c8070
+        kind: item
+        name: Capacité de charge
+        objectId: PRD-0001
+        children: []
+      - id: 23c0673e-c359-4eba-a7ff-75f710a3b6d6
+        kind: item
+        name: Vitesse d'essorage maximale
+        objectId: PRD-0002
+        children: []
+      - id: 704b83a6-e4ca-4731-af4a-03d6e7f2f222
+        kind: item
+        name: Consommation d'eau du programme Eco 40-60
+        objectId: PRD-0003
+        children: []
+      - id: 7265c177-b297-49cb-aff7-c57236d37c8e
+        kind: item
+        name: Niveau sonore en essorage
+        objectId: PRD-0004
+        children: []
+      - id: 3159062d-73bd-450a-aabe-af7f4bae6726
+        kind: item
+        name: Durée du programme Eco 40-60
+        objectId: PRD-0005
+        children: []
+  - id: fe2b8e3b-4fda-425f-ac73-a4379818819e
+    kind: folder
+    name: Usage
+    children:
+      - id: 70155791-e684-438c-a38b-f41f6be785fb
+        kind: item
+        name: Départ différé
+        objectId: PRD-0006
+        children: []
+      - id: 1c5b47ec-433c-412b-a60b-e13aeb7f9694
+        kind: item
+        name: Sécurité enfant
+        objectId: PRD-0007
+        children: []
+      - id: 1628e2ac-29fe-4c5b-a68b-a2af5e03d2ba
+        kind: item
+        name: Mode silence nocturne
+        objectId: PRD-0011
+        children: []
+  - id: c7214f6e-1be8-407c-a7e6-4b955e363a6c
+    kind: folder
+    name: Réglementaire
+    children:
+      - id: 309c14fd-ec34-4d1f-a1bc-15ddff66357e
+        kind: item
+        name: Verrouillage du hublot
+        objectId: PRD-0008
+        children: []
+      - id: 7d12113b-b1d3-4f84-aa02-f37da0948243
+        kind: item
+        name: Protection anti-débordement
+        objectId: PRD-0009
+        children: []
+  - id: 53398afd-036b-4730-a5aa-5d625e90f825
+    kind: folder
+    name: Connectivité
+    children:
+      - id: dc630ea3-d07c-4e6b-a486-2470ba4e66bf
+        kind: item
+        name: Pilotage à distance par application
+        objectId: PRD-0010
+        children: []

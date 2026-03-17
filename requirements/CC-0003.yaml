@@ -1,0 +1,12 @@
+id: CC-0003
+projectId: ''
+branchId: ''
+objectTypeRef: carte-commande::exigence-carte
+title: Pilotage de la résistance
+status: draft
+version: 1
+fields:
+  statement: THE carte de commande SHALL piloter la résistance de chauffe par relais avec double coupure.
+  priority: high
+  securite: true
+jiraLinks: []

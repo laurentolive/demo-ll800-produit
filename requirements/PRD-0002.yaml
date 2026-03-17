@@ -1,0 +1,17 @@
+id: PRD-0002
+projectId: ''
+branchId: ''
+objectTypeRef: root::exigence-produit
+title: Vitesse d'essorage maximale
+status: draft
+version: 1
+fields:
+  statement: THE lave-linge SHALL essorer à une vitesse maximale de {vitesse_essorage} en programme Coton.
+  priority: high
+  source: Marketing
+  marches: EU
+  claim: true
+  kpi_cible: 1200 tr/min
+  responsable: Claire Martin
+  acceptanceCriteria: '- [ ] Vitesse mesurée au tachymètre ≥ {vitesse_essorage} − 2 %'
+jiraLinks: []

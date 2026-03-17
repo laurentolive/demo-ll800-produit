@@ -1,0 +1,23 @@
+nodeId: bus-ihm
+typeId: exigence-bus-ihm
+root:
+  - id: 9a4f18cd-57b8-49b2-a31c-fe2fea6f416b
+    kind: item
+    name: Trame de rafraîchissement
+    objectId: BIHM-0001
+    children: []
+  - id: 21141dc4-cf6b-421c-a42e-6d2bdbd2e320
+    kind: item
+    name: Acquittement des touches
+    objectId: BIHM-0002
+    children: []
+  - id: 0751984d-14e6-4178-af3d-bc66ae3e75b5
+    kind: item
+    name: Timeout de communication
+    objectId: BIHM-0003
+    children: []
+  - id: 2c47b7bb-0af6-461e-a7a0-ef6786b9b1cb
+    kind: item
+    name: Adressage
+    objectId: BIHM-0004
+    children: []

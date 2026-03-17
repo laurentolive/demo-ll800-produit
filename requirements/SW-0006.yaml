@@ -1,0 +1,15 @@
+id: SW-0006
+projectId: ''
+branchId: ''
+objectTypeRef: logiciel::exigence-logiciel
+title: Journal de défauts
+status: draft
+version: 1
+fields:
+  statement: |-
+    WHEN un défaut est détecté
+    THE logiciel de commande SHALL l'horodater et l'enregistrer dans un journal circulaire de 32 entrées.
+  priority: low
+  module: Diagnostic
+  classe_logicielle: A
+jiraLinks: []

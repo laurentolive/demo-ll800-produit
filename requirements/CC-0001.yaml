@@ -1,0 +1,12 @@
+id: CC-0001
+projectId: ''
+branchId: ''
+objectTypeRef: carte-commande::exigence-carte
+title: Microcontrôleur principal
+status: draft
+version: 1
+fields:
+  statement: THE carte de commande SHALL embarquer un microcontrôleur 32 bits disposant d'au moins 256 Ko de flash.
+  priority: medium
+  composant_ref: STM32G0B1
+jiraLinks: []

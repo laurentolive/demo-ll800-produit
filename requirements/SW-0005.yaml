@@ -1,0 +1,15 @@
+id: SW-0005
+projectId: ''
+branchId: ''
+objectTypeRef: logiciel::exigence-logiciel
+title: Verrouillage des touches
+status: draft
+version: 1
+fields:
+  statement: |-
+    WHILE la sécurité enfant est active
+    THE logiciel de commande SHALL ignorer les événements touches hors combinaison de déverrouillage.
+  priority: high
+  module: IHM
+  classe_logicielle: A
+jiraLinks: []

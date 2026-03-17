@@ -1,0 +1,20 @@
+id: PRD-0007
+projectId: ''
+branchId: ''
+objectTypeRef: root::exigence-produit
+title: Sécurité enfant
+status: draft
+version: 1
+fields:
+  statement: >-
+    WHILE la sécurité enfant est activée
+
+    THE lave-linge SHALL ignorer tout appui sur les touches de la façade, à l'exception de l'appui long de 3 s sur la
+    combinaison de déverrouillage.
+  priority: high
+  source: Normes
+  marches: EU, US, CN, JP
+  acceptanceCriteria: |-
+    - [ ] Appuis courts sur chaque touche sans effet
+    - [ ] Déverrouillage après 3 s ± 0,5 s
+jiraLinks: []

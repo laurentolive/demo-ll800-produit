@@ -1,0 +1,21 @@
+id: PRD-0001
+projectId: ''
+branchId: ''
+objectTypeRef: root::exigence-produit
+title: Capacité de charge
+status: draft
+version: 1
+fields:
+  statement: THE lave-linge SHALL accepter une charge de linge sec de {capacite_kg} en programme Coton.
+  priority: high
+  source: Marketing
+  marches: EU, US
+  claim: true
+  kpi_cible: 8 kg
+  echeance: '2026-06-30'
+  responsable: Claire Martin
+  rationale: 'Segment cœur de marché : les concurrents directs proposent **8 kg** sur le même encombrement (60 × 60 × 85 cm).'
+  acceptanceCriteria: |-
+    - [ ] Charge normalisée EN 60456 de {capacite_kg} introduite sans forcer
+    - [ ] Hublot fermé sans effort > 50 N
+jiraLinks: []

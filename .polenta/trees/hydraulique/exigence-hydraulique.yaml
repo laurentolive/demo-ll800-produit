@@ -1,0 +1,31 @@
+nodeId: hydraulique
+typeId: exigence-hydraulique
+root:
+  - id: 42432b72-f77b-4361-a0be-62a98c73b7ad
+    kind: folder
+    name: Alimentation
+    children:
+      - id: 6fa84398-cb66-47bb-a988-1d723b859199
+        kind: item
+        name: Débit d'arrivée d'eau
+        objectId: HYD-0001
+        children: []
+      - id: e3beb640-d94f-4f18-abf8-fbff4b6c9772
+        kind: item
+        name: Étanchéité
+        objectId: HYD-0003
+        children: []
+      - id: 0a7a0dc3-932a-474d-adcc-a655c318cf51
+        kind: item
+        name: Anti-siphonnage
+        objectId: HYD-0004
+        children: []
+  - id: e970a43e-55fc-4467-a661-015c26c08e89
+    kind: folder
+    name: Mesure
+    children:
+      - id: adc53acb-e7d5-4872-a7cc-d71424c49588
+        kind: item
+        name: Capteur de niveau
+        objectId: HYD-0002
+        children: []

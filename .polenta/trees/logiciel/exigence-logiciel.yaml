@@ -1,0 +1,49 @@
+nodeId: logiciel
+typeId: exigence-logiciel
+root:
+  - id: 91ce612a-a271-433e-a566-f7576f3c9410
+    kind: folder
+    name: FSM
+    children:
+      - id: b4cb9581-2002-40d3-a83f-e34d39b576d7
+        kind: item
+        name: Séquenceur de cycle
+        objectId: SW-0001
+        children: []
+      - id: 19765a30-40bd-48a7-afb2-b462e3d3db4e
+        kind: item
+        name: Sauvegarde de contexte
+        objectId: SW-0003
+        children: []
+  - id: 4e815fa6-2dad-48ac-a98c-5ec36bb2d496
+    kind: folder
+    name: Sécurité
+    children:
+      - id: 89407e25-8f6f-43a8-a4de-24160a276bc1
+        kind: item
+        name: Chien de garde
+        objectId: SW-0002
+        children: []
+  - id: 8040100c-c2ee-4421-a0a0-5b48611774dd
+    kind: folder
+    name: IHM
+    children:
+      - id: afc209fc-f2ac-45d3-ae0f-7cab659457f0
+        kind: item
+        name: Gestion du départ différé
+        objectId: SW-0004
+        children: []
+      - id: f30e59cf-de09-486f-a79a-7e0fa11e70b3
+        kind: item
+        name: Verrouillage des touches
+        objectId: SW-0005
+        children: []
+  - id: 2aa68202-b56b-401f-a234-91dbfb5e2058
+    kind: folder
+    name: Diagnostic
+    children:
+      - id: c0921bb6-9a73-4422-a55e-d195c45956db
+        kind: item
+        name: Journal de défauts
+        objectId: SW-0006
+        children: []
