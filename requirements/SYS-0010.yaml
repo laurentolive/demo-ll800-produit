@@ -1,0 +1,23 @@
+id: SYS-0010
+projectId: ''
+branchId: ''
+objectTypeRef: root::exigence-systeme
+title: Reprise après coupure secteur
+status: draft
+version: 1
+fields:
+  statement: |-
+    IF l'alimentation secteur est interrompue pendant un cycle
+    THEN THE système SHALL reprendre le cycle à la phase interrompue au retour du secteur.
+  priority: medium
+  domaine: SW
+jiraLinks: []
+history:
+  status:
+    - value: draft
+      at: '2026-03-17T09:30:00Z'
+      by: Claire Martin
+  priority:
+    - value: medium
+      at: '2026-03-17T09:30:00Z'
+      by: Claire Martin

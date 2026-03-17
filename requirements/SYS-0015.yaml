@@ -1,0 +1,21 @@
+id: SYS-0015
+projectId: ''
+branchId: ''
+objectTypeRef: root::exigence-systeme
+title: Capteur de vibration redondant
+status: draft
+version: 1
+fields:
+  statement: THE lave-linge SHALL disposer d'un second capteur de vibration.
+  priority: low
+  domaine: HW
+jiraLinks: []
+history:
+  status:
+    - value: draft
+      at: '2026-03-17T09:30:00Z'
+      by: Claire Martin
+  priority:
+    - value: low
+      at: '2026-03-17T09:30:00Z'
+      by: Claire Martin

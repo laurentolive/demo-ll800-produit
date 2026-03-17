@@ -1,0 +1,13 @@
+id: HYD-0004
+projectId: ''
+branchId: ''
+objectTypeRef: hydraulique::exigence-hydraulique
+title: Anti-siphonnage
+status: draft
+version: 1
+fields:
+  statement: |-
+    IF la pression d'arrivée devient négative
+    THEN THE circuit hydraulique SHALL empêcher tout retour d'eau vers le réseau.
+  priority: high
+jiraLinks: []

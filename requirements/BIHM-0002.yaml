@@ -1,0 +1,13 @@
+id: BIHM-0002
+projectId: ''
+branchId: ''
+objectTypeRef: bus-ihm::exigence-bus-ihm
+title: Acquittement des touches
+status: draft
+version: 1
+fields:
+  statement: |-
+    WHEN une touche est appuyée
+    THE esclave du bus IHM SHALL signaler l'événement au maître dans la trame suivante.
+  roles: esclave
+jiraLinks: []

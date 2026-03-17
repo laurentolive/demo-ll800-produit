@@ -1,0 +1,11 @@
+id: HYD-0002
+projectId: ''
+branchId: ''
+objectTypeRef: hydraulique::exigence-hydraulique
+title: Capteur de niveau
+status: draft
+version: 1
+fields:
+  statement: THE circuit hydraulique SHALL mesurer le niveau d'eau en cuve avec une résolution de 5 mm.
+  priority: high
+jiraLinks: []

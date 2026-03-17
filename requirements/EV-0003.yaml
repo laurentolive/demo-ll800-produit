@@ -1,0 +1,14 @@
+id: EV-0003
+projectId: ''
+branchId: ''
+objectTypeRef: electrovannes::exigence-electrovanne
+title: Fermeture sans alimentation
+status: draft
+version: 1
+fields:
+  statement: |-
+    IF l'alimentation de l'électrovanne est coupée
+    THEN THE électrovanne SHALL se fermer.
+  priority: high
+  securite: true
+jiraLinks: []

@@ -1,0 +1,11 @@
+id: BIHM-0001
+projectId: ''
+branchId: ''
+objectTypeRef: bus-ihm::exigence-bus-ihm
+title: Trame de rafraîchissement
+status: draft
+version: 1
+fields:
+  statement: THE maître du bus IHM SHALL émettre une trame de rafraîchissement de l'affichage toutes les 50 ms.
+  roles: maitre
+jiraLinks: []

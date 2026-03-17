@@ -1,0 +1,13 @@
+id: SW-0001
+projectId: ''
+branchId: ''
+objectTypeRef: logiciel::exigence-logiciel
+title: Séquenceur de cycle
+status: draft
+version: 1
+fields:
+  statement: THE logiciel de commande SHALL implémenter la machine d'états du cycle définie par SYS-0003.
+  priority: high
+  module: FSM
+  classe_logicielle: B
+jiraLinks: []

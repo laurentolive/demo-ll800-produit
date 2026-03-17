@@ -1,0 +1,13 @@
+id: EV-0002
+projectId: ''
+branchId: ''
+objectTypeRef: electrovannes::exigence-electrovanne
+title: Électrovanne de lavage
+status: draft
+version: 1
+fields:
+  statement: |-
+    WHEN la phase de lavage démarre
+    THE électrovanne de lavage SHALL s'ouvrir en moins de 200 ms.
+  priority: medium
+jiraLinks: []

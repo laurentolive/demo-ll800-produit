@@ -1,0 +1,12 @@
+id: HYD-0003
+projectId: ''
+branchId: ''
+objectTypeRef: hydraulique::exigence-hydraulique
+title: Étanchéité
+status: draft
+version: 1
+fields:
+  statement: THE circuit hydraulique SHALL rester étanche sous une pression de 1,2 × {pression_eau_max}.
+  priority: high
+  acceptanceCriteria: '- [ ] Aucune fuite après 10 min à 1,2 MPa'
+jiraLinks: []

@@ -1,0 +1,12 @@
+id: CC-0002
+projectId: ''
+branchId: ''
+objectTypeRef: carte-commande::exigence-carte
+title: Alimentation secteur
+status: draft
+version: 1
+fields:
+  statement: THE carte de commande SHALL fonctionner pour une tension secteur de {tension_alimentation} ± 10 %.
+  priority: high
+  securite: true
+jiraLinks: []

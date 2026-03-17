@@ -1,0 +1,15 @@
+id: SW-0004
+projectId: ''
+branchId: ''
+objectTypeRef: logiciel::exigence-logiciel
+title: Gestion du départ différé
+status: draft
+version: 1
+fields:
+  statement: |-
+    WHERE le départ différé est programmé
+    THE logiciel de commande SHALL décompter le délai et démarrer le cycle à son terme.
+  priority: medium
+  module: IHM
+  classe_logicielle: A
+jiraLinks: []

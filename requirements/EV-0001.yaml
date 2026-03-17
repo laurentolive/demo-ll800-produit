@@ -1,0 +1,13 @@
+id: EV-0001
+projectId: ''
+branchId: ''
+objectTypeRef: electrovannes::exigence-electrovanne
+title: Électrovanne de prélavage
+status: draft
+version: 1
+fields:
+  statement: |-
+    WHEN la phase de prélavage démarre
+    THE électrovanne de prélavage SHALL s'ouvrir en moins de 200 ms.
+  priority: medium
+jiraLinks: []

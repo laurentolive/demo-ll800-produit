@@ -1,0 +1,15 @@
+id: SW-0003
+projectId: ''
+branchId: ''
+objectTypeRef: logiciel::exigence-logiciel
+title: Sauvegarde de contexte
+status: draft
+version: 1
+fields:
+  statement: |-
+    WHEN une chute de tension secteur est détectée
+    THE logiciel de commande SHALL sauvegarder la phase en cours en mémoire non volatile en moins de 10 ms.
+  priority: medium
+  module: FSM
+  classe_logicielle: A
+jiraLinks: []

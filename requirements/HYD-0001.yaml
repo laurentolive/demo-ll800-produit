@@ -1,0 +1,12 @@
+id: HYD-0001
+projectId: ''
+branchId: ''
+objectTypeRef: hydraulique::exigence-hydraulique
+title: Débit d'arrivée d'eau
+status: draft
+version: 1
+fields:
+  statement: THE circuit hydraulique SHALL admettre un débit d'au moins 8 L/min à {pression_eau_min}.
+  priority: medium
+  debit_l_min: 8
+jiraLinks: []

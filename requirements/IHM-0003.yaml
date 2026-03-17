@@ -1,0 +1,13 @@
+id: IHM-0003
+projectId: ''
+branchId: ''
+objectTypeRef: ihm::exigence-ihm
+title: Signal sonore de fin de cycle
+status: draft
+version: 1
+fields:
+  statement: |-
+    WHEN le cycle se termine
+    THE IHM SHALL émettre trois bips, désactivables par l'utilisateur.
+  priority: low
+jiraLinks: []

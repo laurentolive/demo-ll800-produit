@@ -1,0 +1,10 @@
+id: BIHM-0004
+projectId: ''
+branchId: ''
+objectTypeRef: bus-ihm::exigence-bus-ihm
+title: Adressage
+status: draft
+version: 1
+fields:
+  statement: THE bus IHM SHALL utiliser un adressage sur 7 bits.
+jiraLinks: []

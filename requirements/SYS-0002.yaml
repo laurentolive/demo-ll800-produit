@@ -1,0 +1,36 @@
+id: SYS-0002
+projectId: ''
+branchId: ''
+objectTypeRef: root::exigence-systeme
+title: Profil de vitesse d'essorage
+status: draft
+version: 1
+fields:
+  statement: >-
+    WHEN la phase d'essorage démarre
+
+    THE carte de commande SHALL commander au moteur une rampe jusqu'à {comp-moteur::vitesse_essorage_max} en moins de 90
+    s.
+
+
+    ```image
+
+    {"src":"images/courbe-essorage.png","alt":"Profil de vitesse d'essorage","width":420}
+
+    ```
+  priority: high
+  domaine: SW
+  securite: false
+  acceptanceCriteria: |-
+    - [ ] Vitesse cible atteinte < 90 s
+    - [ ] Pas de dépassement > 3 %
+jiraLinks: []
+history:
+  status:
+    - value: draft
+      at: '2026-03-17T09:30:00Z'
+      by: Claire Martin
+  priority:
+    - value: high
+      at: '2026-03-17T09:30:00Z'
+      by: Claire Martin

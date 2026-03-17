@@ -1,0 +1,25 @@
+id: SYS-0006
+projectId: ''
+branchId: ''
+objectTypeRef: root::exigence-systeme
+title: Vidange
+status: draft
+version: 1
+fields:
+  statement: >-
+    WHEN la phase de vidange démarre
+
+    THE système SHALL évacuer la totalité de l'eau en moins de 90 s au moyen de la pompe de débit
+    {comp-pompe-vidange::debit_nominal}.
+  priority: medium
+  domaine: HYDRAU
+jiraLinks: []
+history:
+  status:
+    - value: draft
+      at: '2026-03-17T09:30:00Z'
+      by: Claire Martin
+  priority:
+    - value: medium
+      at: '2026-03-17T09:30:00Z'
+      by: Claire Martin

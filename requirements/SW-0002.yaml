@@ -1,0 +1,16 @@
+id: SW-0002
+projectId: ''
+branchId: ''
+objectTypeRef: logiciel::exigence-logiciel
+title: Chien de garde
+status: draft
+version: 1
+fields:
+  statement: |-
+    IF le chien de garde n'est pas rafraîchi pendant 100 ms
+    THEN THE logiciel de commande SHALL placer le système en état sûr.
+  priority: high
+  securite: true
+  module: Sécurité
+  classe_logicielle: B
+jiraLinks: []

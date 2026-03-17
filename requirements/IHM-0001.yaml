@@ -1,0 +1,19 @@
+id: IHM-0001
+projectId: ''
+branchId: ''
+objectTypeRef: ihm::exigence-ihm
+title: Affichage du temps restant
+status: draft
+version: 1
+fields:
+  statement: |-
+    WHILE un cycle est en cours
+    THE IHM SHALL afficher le temps restant en heures et minutes.
+  priority: medium
+  maquette: |-
+    Maquette de la façade :
+
+    ![Façade IHM](images/facade-ihm.png)
+
+    Le temps restant occupe les 4 digits centraux.
+jiraLinks: []
