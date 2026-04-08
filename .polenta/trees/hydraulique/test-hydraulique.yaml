@@ -1,0 +1,13 @@
+nodeId: hydraulique
+typeId: test-hydraulique
+root:
+  - id: 5b2f2b1c-71f3-4c53-a155-8dde4278d55c
+    kind: item
+    name: Étanchéité sous pression
+    objectId: THYD-0001
+    children: []
+  - id: d8d1a216-13c3-4c2a-a428-df3b68d98e96
+    kind: item
+    name: Débit d'arrivée
+    objectId: THYD-0002
+    children: []

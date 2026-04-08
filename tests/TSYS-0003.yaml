@@ -1,0 +1,32 @@
+id: TSYS-0003
+projectId: ''
+branchId: ''
+objectTypeRef: root::test-systeme
+title: Consommation d'eau Eco 40-60
+status: draft
+version: 1
+preconditions: Charge d'essai de {charge_essai}, eau à 15 °C ± 2 °C.
+equipment:
+  - id: eq-debitmetre
+    role: Débitmètre
+    description: Compteur volumétrique classe B
+    required: true
+    quantity: 1
+steps:
+  - order: 1
+    action: Lancer le programme Eco 40-60.
+    expectedResult: Le cycle démarre.
+    notes: null
+  - order: 2
+    action: Relever le volume d'eau consommé en fin de cycle.
+    expectedResult: Volume ≤ {consommation_eau_eco}.
+    notes: null
+  - order: 3
+    action: Relever la durée du cycle.
+    expectedResult: Durée ≤ {duree_programme_eco}.
+    notes: null
+postconditions: Répéter 3 fois et consigner la moyenne.
+fields:
+  niveau: système
+  duree_min: 240
+  moyens: Banc hydraulique, Balance

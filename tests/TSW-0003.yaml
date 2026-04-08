@@ -1,0 +1,22 @@
+id: TSW-0003
+projectId: ''
+branchId: ''
+objectTypeRef: logiciel::test-logiciel
+title: Sécurité enfant
+status: draft
+version: 1
+preconditions: Sécurité enfant activée.
+equipment: []
+steps:
+  - order: 1
+    action: Appuyer brièvement sur chaque touche.
+    expectedResult: Aucun effet.
+    notes: null
+  - order: 2
+    action: Appui long 3 s sur la combinaison de déverrouillage.
+    expectedResult: Sécurité enfant désactivée.
+    notes: null
+postconditions: ''
+fields:
+  automatise: false
+  version_firmware: '1.2'

@@ -1,0 +1,28 @@
+id: TSYS-0002
+projectId: ''
+branchId: ''
+objectTypeRef: root::test-systeme
+title: Mesure de la vitesse d'essorage
+status: draft
+version: 1
+preconditions: Charge nominale de {capacite_kg}, programme Coton.
+equipment:
+  - id: eq-tacho
+    role: Tachymètre optique
+    description: Plage 0–3000 tr/min
+    required: true
+    quantity: 1
+steps:
+  - order: 1
+    action: Lancer le programme Coton avec essorage maximal.
+    expectedResult: Le cycle atteint la phase d'essorage.
+    notes: null
+  - order: 2
+    action: Mesurer la vitesse du tambour au tachymètre pendant le palier.
+    expectedResult: Vitesse ≥ {vitesse_essorage} − 2 %, et ≤ {comp-moteur::vitesse_essorage_max}.
+    notes: Relever la valeur maximale sur 30 s.
+postconditions: ''
+fields:
+  niveau: système
+  duree_min: 20
+  moyens: Tachymètre

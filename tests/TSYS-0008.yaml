@@ -1,0 +1,24 @@
+id: TSYS-0008
+projectId: ''
+branchId: ''
+objectTypeRef: root::test-systeme
+title: Détection de balourd
+status: draft
+version: 1
+preconditions: Masse de balourd de 500 g fixée sur la paroi du tambour.
+equipment: []
+steps:
+  - order: 1
+    action: Lancer un essorage.
+    expectedResult: Le système détecte le balourd à 300 tr/min.
+    notes: null
+  - order: 2
+    action: Observer la suite du cycle.
+    expectedResult: Redistribution puis essorage limité à 600 tr/min.
+    notes: null
+postconditions: ''
+fields:
+  niveau: endurance
+  duree_min: 600
+  destructif: true
+  moyens: Balance

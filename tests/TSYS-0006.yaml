@@ -1,0 +1,27 @@
+id: TSYS-0006
+projectId: ''
+branchId: ''
+objectTypeRef: root::test-systeme
+title: Verrouillage du hublot
+status: draft
+version: 1
+preconditions: Machine alimentée, programme 60 °C.
+equipment: []
+steps:
+  - order: 1
+    action: Pendant le chauffage, attendre que l'eau atteigne 51 °C, puis tenter d'ouvrir le hublot.
+    expectedResult: Le hublot reste verrouillé.
+    notes: null
+  - order: 2
+    action: Pendant l'essorage, tenter d'ouvrir le hublot.
+    expectedResult: Le hublot reste verrouillé.
+    notes: null
+  - order: 3
+    action: En fin de cycle, eau < 45 °C et tambour arrêté, ouvrir le hublot.
+    expectedResult: Le hublot se déverrouille en moins de 2 min.
+    notes: null
+postconditions: ''
+fields:
+  niveau: intégration
+  duree_min: 45
+  moyens: Chambre climatique

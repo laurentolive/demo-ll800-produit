@@ -1,0 +1,24 @@
+id: TSYS-0009
+projectId: ''
+branchId: ''
+objectTypeRef: root::test-systeme
+title: Consommation en veille
+status: draft
+version: 1
+preconditions: Machine en veille depuis 30 min.
+equipment:
+  - id: eq-watt
+    role: Wattmètre
+    description: Classe 0,5, résolution 10 mW
+    required: true
+    quantity: 1
+steps:
+  - order: 1
+    action: Mesurer la puissance moyenne sur 10 min.
+    expectedResult: Puissance < {puissance_veille_max}.
+    notes: null
+postconditions: ''
+fields:
+  niveau: système
+  duree_min: 20
+  moyens: Wattmètre

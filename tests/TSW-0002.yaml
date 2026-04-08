@@ -1,0 +1,18 @@
+id: TSW-0002
+projectId: ''
+branchId: ''
+objectTypeRef: logiciel::test-logiciel
+title: Chien de garde
+status: draft
+version: 1
+preconditions: ''
+equipment: []
+steps:
+  - order: 1
+    action: Bloquer la tâche principale (point d'arrêt injecté).
+    expectedResult: Reset par chien de garde en < 100 ms, système en état sûr.
+    notes: null
+postconditions: ''
+fields:
+  automatise: true
+  version_firmware: 1.2.0

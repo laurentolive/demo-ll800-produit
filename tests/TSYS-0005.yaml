@@ -1,0 +1,22 @@
+id: TSYS-0005
+projectId: ''
+branchId: ''
+objectTypeRef: root::test-systeme
+title: Vérification des KPI produit (itératif par exigence)
+status: draft
+version: 1
+preconditions: 'Exigence vérifiée : **{req.id}** — {req.title}.'
+equipment: []
+steps:
+  - order: 1
+    action: Relever la mesure correspondant à l'exigence {req.id}.
+    expectedResult: 'La mesure respecte le KPI cible : {req.kpi_cible}.'
+    notes: null
+  - order: 2
+    action: Consigner la mesure dans le rapport de campagne.
+    expectedResult: Mesure consignée avec la référence {req.id}.
+    notes: null
+postconditions: ''
+fields:
+  niveau: système
+  duree_min: 15

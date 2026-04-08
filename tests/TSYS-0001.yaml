@@ -1,0 +1,33 @@
+id: TSYS-0001
+projectId: ''
+branchId: ''
+objectTypeRef: root::test-systeme
+title: Mesure de la capacité de charge
+status: draft
+version: 1
+preconditions: Charge normalisée EN 60456 conditionnée 24 h à 20 °C / 65 % HR.
+equipment:
+  - id: eq-balance
+    role: Balance
+    description: Balance 0–20 kg, résolution 10 g
+    required: true
+    quantity: 1
+steps:
+  - order: 1
+    action: Peser la charge de linge sec.
+    expectedResult: Masse = {capacite_kg} ± 1 %
+    notes: null
+  - order: 2
+    action: Introduire la charge dans le tambour et fermer le hublot.
+    expectedResult: Hublot fermé sans effort anormal.
+    notes: null
+  - order: 3
+    action: Lancer le programme Coton 40 °C.
+    expectedResult: Le cycle démarre sans défaut de balourd.
+    notes: null
+postconditions: Vider le tambour, consigner la masse mesurée.
+fields:
+  niveau: système
+  duree_min: 30
+  destructif: false
+  moyens: Balance

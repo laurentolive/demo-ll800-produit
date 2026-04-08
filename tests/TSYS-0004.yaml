@@ -1,0 +1,28 @@
+id: TSYS-0004
+projectId: ''
+branchId: ''
+objectTypeRef: root::test-systeme
+title: Mesure acoustique en essorage
+status: draft
+version: 1
+preconditions: Salle semi-anéchoïque, machine sur socle normalisé.
+equipment:
+  - id: eq-sono
+    role: Sonomètre
+    description: Classe 1 IEC 61672
+    required: true
+    quantity: 4
+steps:
+  - order: 1
+    action: Lancer un essorage à vitesse maximale.
+    expectedResult: Palier de vitesse atteint.
+    notes: null
+  - order: 2
+    action: Mesurer la puissance acoustique selon IEC 60704-2-4.
+    expectedResult: L_WA < {niveau_sonore_essorage}.
+    notes: null
+postconditions: ''
+fields:
+  niveau: système
+  duree_min: 60
+  moyens: Sonomètre

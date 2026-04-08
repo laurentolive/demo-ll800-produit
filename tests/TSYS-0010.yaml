@@ -1,0 +1,22 @@
+id: TSYS-0010
+projectId: ''
+branchId: ''
+objectTypeRef: root::test-systeme
+title: Reprise après coupure secteur
+status: draft
+version: 1
+preconditions: ''
+equipment: []
+steps:
+  - order: 1
+    action: Couper le secteur pendant la phase de rinçage.
+    expectedResult: La machine s'arrête.
+    notes: null
+  - order: 2
+    action: Rétablir le secteur après 30 s.
+    expectedResult: Le cycle reprend à la phase de rinçage.
+    notes: null
+postconditions: ''
+fields:
+  niveau: intégration
+  duree_min: 30

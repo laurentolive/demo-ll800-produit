@@ -1,0 +1,69 @@
+nodeId: root
+typeId: test-systeme
+root:
+  - id: d2319c43-3b87-4866-a5ec-f8ad20f05a9e
+    kind: folder
+    name: Performance
+    children:
+      - id: 121ff127-10a6-47dd-ab1e-33f19b9e3814
+        kind: item
+        name: Mesure de la capacité de charge
+        objectId: TSYS-0001
+        children: []
+      - id: aee608fa-c40e-4156-a487-d01b0cfba2c0
+        kind: item
+        name: Mesure de la vitesse d'essorage
+        objectId: TSYS-0002
+        children: []
+      - id: 9dc3ff1c-91b3-44d6-abfa-c8ad8aa63c14
+        kind: item
+        name: Consommation d'eau Eco 40-60
+        objectId: TSYS-0003
+        children: []
+      - id: 33d344f1-d42b-4ec6-abdb-a0dc1b963553
+        kind: item
+        name: Mesure acoustique en essorage
+        objectId: TSYS-0004
+        children: []
+  - id: a7499f8a-52fd-4094-aea9-d8e34058f24b
+    kind: folder
+    name: KPI
+    children:
+      - id: 08f86356-0efd-4232-ab48-17c2e2d6515c
+        kind: item
+        name: Vérification des KPI produit (itératif par exigence)
+        objectId: TSYS-0005
+        children: []
+  - id: 79ca155c-1e48-4589-a465-9780d26a37a0
+    kind: folder
+    name: Sécurité
+    children:
+      - id: 71c7cf19-e2d4-4805-af92-cdcaaec84ca0
+        kind: item
+        name: Verrouillage du hublot
+        objectId: TSYS-0006
+        children: []
+      - id: 5fa229cf-c0aa-4dc5-aaeb-8631f3c4f26c
+        kind: item
+        name: Protection anti-débordement
+        objectId: TSYS-0007
+        children: []
+      - id: dcae6e44-7aed-4272-abe1-7d1e76bac579
+        kind: item
+        name: Détection de balourd
+        objectId: TSYS-0008
+        children: []
+      - id: a95fb15d-beb0-4cb7-a66e-e84b4bf77a79
+        kind: item
+        name: Reprise après coupure secteur
+        objectId: TSYS-0010
+        children: []
+  - id: 4ec0088c-a633-4116-aab2-2aee49f6b132
+    kind: folder
+    name: Énergie
+    children:
+      - id: 7673e5a3-8d5b-4853-a1c9-1d6930403343
+        kind: item
+        name: Consommation en veille
+        objectId: TSYS-0009
+        children: []

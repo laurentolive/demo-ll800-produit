@@ -1,0 +1,33 @@
+id: TSYS-0007
+projectId: ''
+branchId: ''
+objectTypeRef: root::test-systeme
+title: Protection anti-débordement
+status: draft
+version: 1
+preconditions: Électrovanne de lavage forcée ouverte par le banc.
+equipment:
+  - id: eq-banc-hydrau
+    role: Banc hydraulique
+    description: Banc de forçage des électrovannes
+    required: true
+    quantity: 1
+steps:
+  - order: 1
+    action: Forcer le remplissage au-delà du niveau de sécurité.
+    expectedResult: Les électrovannes se ferment en moins de 2 s.
+    notes: null
+  - order: 2
+    action: Observer la pompe de vidange.
+    expectedResult: La pompe démarre en moins de 2 s.
+    notes: null
+  - order: 3
+    action: Répéter 10 fois.
+    expectedResult: Aucune fuite constatée.
+    notes: null
+postconditions: Remettre le banc en configuration nominale.
+fields:
+  niveau: système
+  duree_min: 90
+  destructif: false
+  moyens: Banc hydraulique
