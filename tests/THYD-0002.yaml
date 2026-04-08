@@ -1,0 +1,17 @@
+id: THYD-0002
+projectId: ''
+branchId: ''
+objectTypeRef: hydraulique::test-hydraulique
+title: Débit d'arrivée
+status: draft
+version: 1
+preconditions: Pression d'alimentation réglée à {pression_eau_min}.
+equipment: []
+steps:
+  - order: 1
+    action: Ouvrir l'électrovanne de lavage et mesurer le débit.
+    expectedResult: Débit ≥ 8 L/min.
+    notes: null
+postconditions: ''
+fields:
+  banc: Banc pression B2

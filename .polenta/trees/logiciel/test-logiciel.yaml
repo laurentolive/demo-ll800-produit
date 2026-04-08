@@ -1,0 +1,15 @@
+nodeId: logiciel
+typeId: test-logiciel
+root:
+  - id: d3c6b6e4-ab71-4ff8-ad4d-2405eb2dea10
+    kind: item
+    objectId: TSW-0001
+    children: []
+  - id: 7607de36-2a0e-4dc4-ae67-6abab2b45b41
+    kind: item
+    objectId: TSW-0002
+    children: []
+  - id: 7b366147-ad7c-4e00-ae7d-040695a6155c
+    kind: item
+    objectId: TSW-0003
+    children: []

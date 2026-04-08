@@ -1,0 +1,21 @@
+id: THYD-0001
+projectId: ''
+branchId: ''
+objectTypeRef: hydraulique::test-hydraulique
+title: Étanchéité sous pression
+status: draft
+version: 1
+preconditions: Circuit rempli, purgé.
+equipment: []
+steps:
+  - order: 1
+    action: Monter en pression à 1,2 × {pression_eau_max}.
+    expectedResult: Pression stable.
+    notes: null
+  - order: 2
+    action: Maintenir 10 min.
+    expectedResult: Aucune fuite.
+    notes: null
+postconditions: ''
+fields:
+  banc: Banc pression B2

@@ -1,0 +1,22 @@
+id: TSW-0001
+projectId: ''
+branchId: ''
+objectTypeRef: logiciel::test-logiciel
+title: Parcours nominal de la machine d'états
+status: draft
+version: 1
+preconditions: Firmware flashé sur banc HIL.
+equipment: []
+steps:
+  - order: 1
+    action: Simuler un cycle Coton complet.
+    expectedResult: Transitions Remplissage → Lavage → Rinçage → Essorage → Fin observées.
+    notes: null
+  - order: 2
+    action: Vérifier le journal de transitions.
+    expectedResult: Aucune transition hors diagramme.
+    notes: null
+postconditions: ''
+fields:
+  automatise: true
+  version_firmware: 1.2.0
