@@ -3,7 +3,7 @@ projectId: ''
 branchId: ''
 objectTypeRef: root::test-systeme
 title: Détection de balourd
-status: draft
+status: review
 version: 1
 preconditions: Masse de balourd de 500 g fixée sur la paroi du tambour.
 equipment: []

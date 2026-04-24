@@ -3,7 +3,7 @@ projectId: ''
 branchId: ''
 objectTypeRef: logiciel::test-logiciel
 title: Sécurité enfant
-status: draft
+status: approved
 version: 1
 preconditions: Sécurité enfant activée.
 equipment: []

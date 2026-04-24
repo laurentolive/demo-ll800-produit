@@ -3,7 +3,7 @@ projectId: ''
 branchId: ''
 objectTypeRef: root::test-systeme
 title: Mesure de la vitesse d'essorage
-status: draft
+status: approved
 version: 1
 preconditions: Charge nominale de {capacite_kg}, programme Coton.
 equipment:

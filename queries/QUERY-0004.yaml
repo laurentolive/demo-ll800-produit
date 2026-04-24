@@ -1,0 +1,7 @@
+id: QUERY-0004
+title: Tests — résultat de la dernière exécution
+mode: sql
+sqlText: SELECT [latestRunResult], COUNT(*) AS [count] FROM [tests] GROUP BY [latestRunResult]
+scope: shared
+createdBy: Hugo Bernard
+createdAt: '2026-04-24T15:00:00.000Z'

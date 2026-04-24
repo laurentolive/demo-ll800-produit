@@ -3,7 +3,7 @@ projectId: ''
 branchId: ''
 objectTypeRef: root::test-systeme
 title: Mesure acoustique en essorage
-status: draft
+status: approved
 version: 1
 preconditions: Salle semi-anéchoïque, machine sur socle normalisé.
 equipment:

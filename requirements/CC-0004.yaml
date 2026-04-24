@@ -3,7 +3,7 @@ projectId: ''
 branchId: ''
 objectTypeRef: carte-commande::exigence-carte
 title: Contrôleur du bus interne
-status: draft
+status: approved
 version: 1
 fields:
   statement: THE carte de commande SHALL assurer le rôle de contrôleur du bus interne conformément au protocole if-bus-interne.

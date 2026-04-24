@@ -3,7 +3,7 @@ projectId: ''
 branchId: ''
 objectTypeRef: root::test-systeme
 title: Protection anti-débordement
-status: draft
+status: approved
 version: 1
 preconditions: Électrovanne de lavage forcée ouverte par le banc.
 equipment:

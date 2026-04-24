@@ -3,7 +3,7 @@ projectId: ''
 branchId: ''
 objectTypeRef: root::exigence-produit
 title: Départ différé
-status: draft
+status: review
 version: 1
 fields:
   statement: |-

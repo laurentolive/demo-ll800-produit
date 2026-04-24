@@ -1,0 +1,7 @@
+id: QUERY-0005
+title: Exigences à revalider
+mode: sql
+sqlText: SELECT COUNT(*) AS [count] FROM [requirements] WHERE [needsRevalidation] = true
+scope: shared
+createdBy: Hugo Bernard
+createdAt: '2026-04-24T15:00:00.000Z'

@@ -3,7 +3,7 @@ projectId: ''
 branchId: ''
 objectTypeRef: root::exigence-produit
 title: Durée du programme Eco 40-60
-status: draft
+status: approved
 version: 1
 fields:
   statement: |-

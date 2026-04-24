@@ -1,0 +1,68 @@
+id: REVIEW-0001
+title: Revue d'étude RE1 — exigences produit
+status: approved
+description: Revue formelle des exigences produit de performance avant le gel **RE1**.
+createdBy: Claire Martin
+createdAt: '2026-04-20T08:00:00.000Z'
+dueDate: '2026-04-24'
+quorum: 2
+reviewers:
+  - Claire Martin
+  - Hugo Bernard
+  - Marc Dubois
+objects:
+  - objectId: PRD-0001
+    objectType: requirement
+    objectVersion: 1
+    approvals:
+      - reviewerId: Hugo Bernard
+        approvedAt: '2026-04-23T15:00:00.000Z'
+        objectId: PRD-0001
+      - reviewerId: Marc Dubois
+        approvedAt: '2026-04-23T15:00:00.000Z'
+        objectId: PRD-0001
+    approvalStatus: quorum_reached
+  - objectId: PRD-0002
+    objectType: requirement
+    objectVersion: 1
+    approvals:
+      - reviewerId: Hugo Bernard
+        approvedAt: '2026-04-23T15:00:00.000Z'
+        objectId: PRD-0002
+      - reviewerId: Marc Dubois
+        approvedAt: '2026-04-23T15:00:00.000Z'
+        objectId: PRD-0002
+    approvalStatus: quorum_reached
+  - objectId: PRD-0003
+    objectType: requirement
+    objectVersion: 1
+    approvals:
+      - reviewerId: Hugo Bernard
+        approvedAt: '2026-04-23T15:00:00.000Z'
+        objectId: PRD-0003
+      - reviewerId: Marc Dubois
+        approvedAt: '2026-04-23T15:00:00.000Z'
+        objectId: PRD-0003
+    approvalStatus: quorum_reached
+  - objectId: PRD-0004
+    objectType: requirement
+    objectVersion: 1
+    approvals:
+      - reviewerId: Hugo Bernard
+        approvedAt: '2026-04-23T15:00:00.000Z'
+        objectId: PRD-0004
+      - reviewerId: Marc Dubois
+        approvedAt: '2026-04-23T15:00:00.000Z'
+        objectId: PRD-0004
+    approvalStatus: quorum_reached
+  - objectId: PRD-0005
+    objectType: requirement
+    objectVersion: 1
+    approvals:
+      - reviewerId: Hugo Bernard
+        approvedAt: '2026-04-23T15:00:00.000Z'
+        objectId: PRD-0005
+      - reviewerId: Marc Dubois
+        approvedAt: '2026-04-23T15:00:00.000Z'
+        objectId: PRD-0005
+    approvalStatus: quorum_reached

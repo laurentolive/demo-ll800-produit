@@ -1,0 +1,7 @@
+id: QUERY-0007
+title: Liens par type
+mode: sql
+sqlText: SELECT [type], COUNT(*) AS [count] FROM [links] GROUP BY [type]
+scope: shared
+createdBy: Hugo Bernard
+createdAt: '2026-04-24T15:00:00.000Z'

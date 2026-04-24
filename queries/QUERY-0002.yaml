@@ -1,0 +1,7 @@
+id: QUERY-0002
+title: Exigences — statut de couverture
+mode: sql
+sqlText: SELECT [coverageStatus], COUNT(*) AS [count] FROM [requirements] GROUP BY [coverageStatus]
+scope: shared
+createdBy: Hugo Bernard
+createdAt: '2026-04-24T15:00:00.000Z'

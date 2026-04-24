@@ -3,7 +3,7 @@ projectId: ''
 branchId: ''
 objectTypeRef: root::exigence-produit
 title: Capacité de charge
-status: draft
+status: approved
 version: 1
 fields:
   statement: THE lave-linge SHALL accepter une charge de linge sec de {capacite_kg} en programme Coton.

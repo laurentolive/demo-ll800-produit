@@ -3,7 +3,7 @@ projectId: ''
 branchId: ''
 objectTypeRef: bus-ihm::exigence-bus-ihm
 title: Adressage
-status: draft
+status: approved
 version: 1
 fields:
   statement: THE bus IHM SHALL utiliser un adressage sur 7 bits.

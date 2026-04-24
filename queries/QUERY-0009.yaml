@@ -1,0 +1,7 @@
+id: QUERY-0009
+title: Exigences par version
+mode: sql
+sqlText: SELECT [version], COUNT(*) AS [count] FROM [requirements] GROUP BY [version] ORDER BY [version]
+scope: shared
+createdBy: Hugo Bernard
+createdAt: '2026-04-24T15:00:00.000Z'

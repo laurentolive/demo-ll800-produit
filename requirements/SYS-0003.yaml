@@ -3,7 +3,7 @@ projectId: ''
 branchId: ''
 objectTypeRef: root::exigence-systeme
 title: Machine d'états du cycle
-status: draft
+status: approved
 version: 1
 fields:
   statement: >-

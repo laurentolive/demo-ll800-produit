@@ -3,7 +3,7 @@ projectId: ''
 branchId: ''
 objectTypeRef: hydraulique::test-hydraulique
 title: Étanchéité sous pression
-status: draft
+status: approved
 version: 1
 preconditions: Circuit rempli, purgé.
 equipment: []

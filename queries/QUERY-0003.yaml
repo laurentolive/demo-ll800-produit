@@ -1,0 +1,16 @@
+id: QUERY-0003
+title: Exigences produit prioritaires non approuvées
+mode: builder
+builderConfig:
+  objectTypeRef: root::exigence-produit
+  conditions:
+    - field: priority
+      operator: '='
+      value: high
+    - field: status
+      operator: '!='
+      value: approved
+  combinator: AND
+scope: shared
+createdBy: Hugo Bernard
+createdAt: '2026-04-24T15:00:00.000Z'

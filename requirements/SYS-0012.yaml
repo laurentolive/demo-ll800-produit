@@ -3,7 +3,7 @@ projectId: ''
 branchId: ''
 objectTypeRef: root::exigence-systeme
 title: Détection de fermeture du hublot
-status: draft
+status: review
 version: 1
 fields:
   statement: |-

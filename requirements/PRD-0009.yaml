@@ -3,7 +3,7 @@ projectId: ''
 branchId: ''
 objectTypeRef: root::exigence-produit
 title: Protection anti-débordement
-status: draft
+status: approved
 version: 1
 fields:
   statement: |-

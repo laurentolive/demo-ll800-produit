@@ -3,7 +3,7 @@ projectId: ''
 branchId: ''
 objectTypeRef: logiciel::exigence-logiciel
 title: Verrouillage des touches
-status: draft
+status: approved
 version: 1
 fields:
   statement: |-

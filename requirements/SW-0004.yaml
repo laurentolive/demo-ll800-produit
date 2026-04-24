@@ -3,7 +3,7 @@ projectId: ''
 branchId: ''
 objectTypeRef: logiciel::exigence-logiciel
 title: Gestion du départ différé
-status: draft
+status: review
 version: 1
 fields:
   statement: |-

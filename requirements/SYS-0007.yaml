@@ -3,7 +3,7 @@ projectId: ''
 branchId: ''
 objectTypeRef: root::exigence-systeme
 title: Régulation de température de l'eau
-status: draft
+status: review
 version: 1
 fields:
   statement: |-

@@ -1,0 +1,66 @@
+id: DASHBOARD-0001
+title: Pilotage LL800
+scope: shared
+widgetOrder:
+  - widget-1777042800000-7rzhwa
+  - widget-1777042800000-crtqk7
+  - widget-1777042800000-8agns3
+  - widget-1777042800000-96umyc
+  - widget-1777042800000-76lrb4
+  - widget-1777042800000-3ypbm8
+widgets:
+  - id: widget-1777042800000-7rzhwa
+    title: Statut des exigences par composant
+    queryId: QUERY-0001
+    type: bar
+    fieldMapping:
+      category: component
+      measure: count
+      series: status
+      stacked: true
+    size: lg
+  - id: widget-1777042800000-crtqk7
+    title: Couverture des exigences
+    queryId: QUERY-0002
+    type: pie
+    fieldMapping:
+      category: coverageStatus
+      measure: count
+    size: md
+  - id: widget-1777042800000-8agns3
+    title: À revalider
+    queryId: QUERY-0005
+    type: kpi
+    fieldMapping:
+      measure: count
+    size: sm
+  - id: widget-1777042800000-96umyc
+    title: Dernière exécution des tests
+    queryId: QUERY-0004
+    type: bar
+    fieldMapping:
+      category: latestRunResult
+      measure: count
+    size: md
+  - id: widget-1777042800000-76lrb4
+    title: Exigences de sécurité
+    queryId: QUERY-0006
+    type: table
+    fieldMapping:
+      columns:
+        - id
+        - title
+        - status
+        - coverageStatus
+        - component
+    size: lg
+  - id: widget-1777042800000-3ypbm8
+    title: Exigences par version
+    queryId: QUERY-0009
+    type: line
+    fieldMapping:
+      category: version
+      measure: count
+    size: md
+createdBy: Hugo Bernard
+createdAt: '2026-04-24T15:00:00.000Z'

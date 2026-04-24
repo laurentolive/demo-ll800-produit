@@ -3,7 +3,7 @@ projectId: ''
 branchId: ''
 objectTypeRef: root::exigence-systeme
 title: Commande du verrou de hublot
-status: draft
+status: approved
 version: 1
 fields:
   statement: |-

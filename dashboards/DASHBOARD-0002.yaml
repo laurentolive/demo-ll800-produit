@@ -1,0 +1,37 @@
+id: DASHBOARD-0002
+title: Composants & traçabilité
+scope: shared
+widgetOrder:
+  - widget-1777044600000-q5p8z9
+  - widget-1777044600000-51wyjc
+  - widget-1777044600000-87sw7x
+widgets:
+  - id: widget-1777044600000-q5p8z9
+    title: Liens par type
+    queryId: QUERY-0007
+    type: pie
+    fieldMapping:
+      category: type
+      measure: count
+    size: md
+  - id: widget-1777044600000-51wyjc
+    title: Exigences moteur par statut
+    queryId: QUERY-0008
+    type: bar
+    fieldMapping:
+      category: status
+      measure: count
+    size: md
+  - id: widget-1777044600000-87sw7x
+    title: Prioritaires non approuvées
+    queryId: QUERY-0003
+    type: table
+    fieldMapping:
+      columns:
+        - id
+        - title
+        - status
+        - priority
+    size: lg
+createdBy: Marc Dubois
+createdAt: '2026-04-24T15:30:00.000Z'

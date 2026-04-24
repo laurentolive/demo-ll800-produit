@@ -3,7 +3,7 @@ projectId: ''
 branchId: ''
 objectTypeRef: root::test-systeme
 title: Consommation en veille
-status: draft
+status: approved
 version: 1
 preconditions: Machine en veille depuis 30 min.
 equipment:

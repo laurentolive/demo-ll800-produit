@@ -1,0 +1,7 @@
+id: QUERY-0001
+title: Exigences — statut par composant
+mode: sql
+sqlText: SELECT [component], [status], COUNT(*) AS [count] FROM [requirements] GROUP BY [component], [status]
+scope: shared
+createdBy: Hugo Bernard
+createdAt: '2026-04-24T15:00:00.000Z'

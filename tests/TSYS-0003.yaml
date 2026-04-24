@@ -3,7 +3,7 @@ projectId: ''
 branchId: ''
 objectTypeRef: root::test-systeme
 title: Consommation d'eau Eco 40-60
-status: draft
+status: approved
 version: 1
 preconditions: Charge d'essai de {charge_essai}, eau à 15 °C ± 2 °C.
 equipment:

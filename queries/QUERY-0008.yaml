@@ -1,0 +1,13 @@
+id: QUERY-0008
+title: Exigences moteur par statut (builder, composant)
+mode: builder
+builderConfig:
+  objectTypeRef: root::exigence-moteur
+  component: comp-moteur
+  conditions: []
+  combinator: AND
+  groupBy:
+    - status
+scope: shared
+createdBy: Hugo Bernard
+createdAt: '2026-04-24T15:00:00.000Z'

@@ -3,7 +3,7 @@ projectId: ''
 branchId: ''
 objectTypeRef: root::exigence-produit
 title: Pilotage à distance par application
-status: draft
+status: review
 version: 1
 fields:
   statement: |-
@@ -15,4 +15,11 @@ fields:
   claim: true
   reference_client: CLI-0042
   acceptanceCriteria: '- [ ] Démarrage à distance < 5 s après l''ordre'
-jiraLinks: []
+jiraLinks:
+  - key: LL-128
+    type: IMPLEMENTS
+    summary: Appli mobile — pilotage à distance du cycle
+    status: In Progress
+    url: https://demo-ll800.atlassian.net/browse/LL-128
+    linkedAt: '2026-04-22T09:00:00.000Z'
+    linkedBy: Claire Martin

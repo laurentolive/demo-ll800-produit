@@ -3,7 +3,7 @@ projectId: ''
 branchId: ''
 objectTypeRef: root::test-systeme
 title: Verrouillage du hublot
-status: draft
+status: approved
 version: 1
 preconditions: Machine alimentée, programme 60 °C.
 equipment: []

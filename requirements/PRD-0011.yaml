@@ -3,7 +3,7 @@ projectId: ''
 branchId: ''
 objectTypeRef: root::exigence-produit
 title: Mode silence nocturne
-status: draft
+status: review
 version: 1
 fields:
   statement: THE lave-linge SHALL limiter la vitesse d'essorage à 800 tr/min entre 22 h et 7 h.

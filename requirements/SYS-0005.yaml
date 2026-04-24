@@ -3,7 +3,7 @@ projectId: ''
 branchId: ''
 objectTypeRef: root::exigence-systeme
 title: Remplissage
-status: draft
+status: approved
 version: 1
 fields:
   statement: >-

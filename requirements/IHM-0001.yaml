@@ -3,7 +3,7 @@ projectId: ''
 branchId: ''
 objectTypeRef: ihm::exigence-ihm
 title: Affichage du temps restant
-status: draft
+status: approved
 version: 1
 fields:
   statement: |-

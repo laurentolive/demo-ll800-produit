@@ -3,7 +3,7 @@ projectId: ''
 branchId: ''
 objectTypeRef: root::test-systeme
 title: Vérification des KPI produit (itératif par exigence)
-status: draft
+status: approved
 version: 1
 preconditions: 'Exigence vérifiée : **{req.id}** — {req.title}.'
 equipment: []
