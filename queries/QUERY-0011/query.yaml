@@ -1,0 +1,27 @@
+id: QUERY-0011
+title: Résultat par campagne
+formatVersion: 1
+template:
+  id: campaign-results
+  version: 1
+  params: {}
+  hash: e33d86fe24a62debe7a3befddc48263136b01a124a694666c34e723b60bb2c03
+column:
+  label:
+    fr: Résultat par campagne
+    en: Result by campaign
+  appliesTo:
+    categories:
+      - test
+    objectTypes: []
+  type: enum
+  values:
+    - PASS
+    - FAIL
+    - BLOCKED
+    - INCOMPLETE
+    - pending
+  splitColumn: campaignId
+  splitLabelColumn: campaignTitle
+createdBy: Hugo Bernard
+createdAt: '2026-04-24T15:00:00.000Z'

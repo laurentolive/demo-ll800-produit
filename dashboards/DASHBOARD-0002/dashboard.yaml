@@ -1,0 +1,48 @@
+id: DASHBOARD-0002
+title: Composants & traçabilité
+formatVersion: 1
+widgetOrder:
+  - widget-1777044600000-q5p8z9
+  - widget-1777044600000-51wyjc
+  - widget-1777044600000-87sw7x
+widgets:
+  - id: widget-1777044600000-q5p8z9
+    title: Liens par type
+    queryId: QUERY-0007
+    size: md
+    template:
+      id: pie
+      version: 1
+      params:
+        category: type
+        measure: sum
+        measureColumn: count
+      hash: 57aa5ccc8d38b3e8a507d877cd388ebf07bb4fea65ad87069246ff014d63dc59
+  - id: widget-1777044600000-51wyjc
+    title: Exigences moteur par statut
+    queryId: QUERY-0008
+    size: md
+    template:
+      id: bar
+      version: 1
+      params:
+        category: status
+        measure: sum
+        measureColumn: count
+      hash: d00c5b7516b4e584934bb223918f35f60e896b4727c48a97caebb2647a496603
+  - id: widget-1777044600000-87sw7x
+    title: Prioritaires non approuvées
+    queryId: QUERY-0003
+    size: lg
+    template:
+      id: table
+      version: 1
+      params:
+        columns:
+          - id
+          - title
+          - status
+          - priority
+      hash: 8347159d7f31150e19540b8fe1f9a4613b8685dfdecb98c177172fb3335a5077
+createdBy: Marc Dubois
+createdAt: '2026-04-24T15:30:00.000Z'

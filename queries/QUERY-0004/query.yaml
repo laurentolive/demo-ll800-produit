@@ -1,0 +1,13 @@
+id: QUERY-0004
+title: Tests — résultat de la dernière exécution
+formatVersion: 1
+template:
+  id: filtered-list
+  version: 1
+  params:
+    category: test
+    groupBy:
+      - latestRunResult
+  hash: 3113bf711de937c65998a61799150e1acfaca265cc505ac61de0798a44117710
+createdBy: Hugo Bernard
+createdAt: '2026-04-24T15:00:00.000Z'

@@ -1,0 +1,23 @@
+{
+  "data": {
+    "name": "rows"
+  },
+  "encoding": {
+    "x": {
+      "field": "version",
+      "sort": null,
+      "title": "version",
+      "type": "ordinal"
+    },
+    "y": {
+      "field": "sum_count",
+      "title": "sum_count",
+      "type": "quantitative"
+    }
+  },
+  "mark": {
+    "point": true,
+    "tooltip": true,
+    "type": "line"
+  }
+}

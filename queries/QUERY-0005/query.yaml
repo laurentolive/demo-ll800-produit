@@ -1,0 +1,15 @@
+id: QUERY-0005
+title: Exigences à revalider
+formatVersion: 1
+template:
+  id: filtered-list
+  version: 1
+  params:
+    category: requirement
+    conditions:
+      - field: needsRevalidation
+        operator: '='
+        value: true
+  hash: 2efee384926a062dabd5d67ff4dd6f723a2390ac5178931a24b3074be33072ff
+createdBy: Hugo Bernard
+createdAt: '2026-04-24T15:00:00.000Z'

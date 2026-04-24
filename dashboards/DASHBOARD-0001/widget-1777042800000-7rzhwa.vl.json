@@ -1,0 +1,31 @@
+{
+  "data": {
+    "name": "rows"
+  },
+  "encoding": {
+    "color": {
+      "field": "status",
+      "sort": null,
+      "title": "status",
+      "type": "nominal"
+    },
+    "x": {
+      "axis": {
+        "labelAngle": -30
+      },
+      "field": "component",
+      "sort": null,
+      "title": "component",
+      "type": "nominal"
+    },
+    "y": {
+      "field": "sum_count",
+      "title": "sum_count",
+      "type": "quantitative"
+    }
+  },
+  "mark": {
+    "tooltip": true,
+    "type": "bar"
+  }
+}

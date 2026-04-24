@@ -3,7 +3,7 @@ projectId: ''
 branchId: ''
 objectTypeRef: ihm::exigence-ihm
 title: Conformité au bus IHM
-status: draft
+status: approved
 version: 1
 fields:
   statement: THE IHM SHALL se comporter en esclave du bus IHM.

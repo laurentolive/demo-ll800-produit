@@ -1,0 +1,14 @@
+id: QUERY-0001
+title: Exigences — statut par composant
+formatVersion: 1
+template:
+  id: filtered-list
+  version: 1
+  params:
+    category: requirement
+    groupBy:
+      - component
+      - status
+  hash: 5503238c01002e8af0723eddd946a7fbf1b8ed53424efa7a43dc53b13e51bb6f
+createdBy: Hugo Bernard
+createdAt: '2026-04-24T15:00:00.000Z'

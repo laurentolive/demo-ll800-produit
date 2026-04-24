@@ -3,7 +3,7 @@ projectId: ''
 branchId: ''
 objectTypeRef: carte-commande::exigence-carte
 title: Microcontrôleur principal
-status: draft
+status: approved
 version: 1
 fields:
   statement: THE carte de commande SHALL embarquer un microcontrôleur 32 bits disposant d'au moins 256 Ko de flash.

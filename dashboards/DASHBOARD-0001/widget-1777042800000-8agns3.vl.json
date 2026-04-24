@@ -1,0 +1,19 @@
+{
+  "data": {
+    "name": "rows"
+  },
+  "encoding": {
+    "text": {
+      "field": "value"
+    }
+  },
+  "mark": {
+    "type": "text"
+  },
+  "usermeta": {
+    "polenta": {
+      "field": "value",
+      "view": "kpi"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "data": {
+    "name": "rows"
+  },
+  "encoding": {
+    "color": {
+      "field": "type",
+      "sort": null,
+      "title": "type",
+      "type": "nominal"
+    },
+    "theta": {
+      "field": "sum_count",
+      "stack": true,
+      "type": "quantitative"
+    }
+  },
+  "mark": {
+    "tooltip": true,
+    "type": "arc"
+  }
+}

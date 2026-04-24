@@ -3,7 +3,7 @@ projectId: ''
 branchId: ''
 objectTypeRef: electrovannes::exigence-electrovanne
 title: Électrovanne de prélavage
-status: draft
+status: approved
 version: 1
 fields:
   statement: |-

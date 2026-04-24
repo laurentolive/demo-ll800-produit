@@ -9,10 +9,6 @@ root:
         kind: item
         objectId: SYS-0001
         children: []
-      - id: 5028e0a4-1b2f-496e-a1b4-b82326c36ca5
-        kind: item
-        objectId: SYS-0015
-        children: []
   - id: bdf4661d-35af-4f2a-a27b-60ae03d042c9
     kind: folder
     name: Cycle de lavage

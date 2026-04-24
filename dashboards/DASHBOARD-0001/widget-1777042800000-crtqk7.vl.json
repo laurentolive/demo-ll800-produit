@@ -1,0 +1,22 @@
+{
+  "data": {
+    "name": "rows"
+  },
+  "encoding": {
+    "color": {
+      "field": "coverageStatus",
+      "sort": null,
+      "title": "coverageStatus",
+      "type": "nominal"
+    },
+    "theta": {
+      "field": "sum_count",
+      "stack": true,
+      "type": "quantitative"
+    }
+  },
+  "mark": {
+    "tooltip": true,
+    "type": "arc"
+  }
+}

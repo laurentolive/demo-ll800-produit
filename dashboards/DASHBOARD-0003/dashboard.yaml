@@ -1,0 +1,33 @@
+id: DASHBOARD-0003
+title: Versions & validation
+formatVersion: 1
+widgetOrder:
+  - widget-1777046400000-xkt2f8
+  - widget-1777046400000-76lx4w
+widgets:
+  - id: widget-1777046400000-xkt2f8
+    title: Issues par version
+    queryId: QUERY-0012
+    size: md
+    template:
+      id: bar
+      version: 1
+      params:
+        category: version
+        measure: sum
+        measureColumn: count
+      hash: 2c03721fd61e791cb759f80d0061a0370dcd37af790ed5f686f799c977a01072
+  - id: widget-1777046400000-76lx4w
+    title: Décisions de la validation
+    queryId: QUERY-0013
+    size: md
+    template:
+      id: pie
+      version: 1
+      params:
+        category: decision
+        measure: sum
+        measureColumn: count
+      hash: 6f2ab4452d052064b9de2633ebca460e7de4121fa59f956aacde231c09695590
+createdBy: Marc Dubois
+createdAt: '2026-04-24T16:00:00.000Z'

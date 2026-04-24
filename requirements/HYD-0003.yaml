@@ -3,7 +3,7 @@ projectId: ''
 branchId: ''
 objectTypeRef: hydraulique::exigence-hydraulique
 title: Étanchéité
-status: draft
+status: approved
 version: 1
 fields:
   statement: THE circuit hydraulique SHALL rester étanche sous une pression de 1,2 × {pression_eau_max}.

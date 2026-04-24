@@ -1,0 +1,15 @@
+id: QUERY-0006
+title: Exigences de sécurité
+formatVersion: 1
+template:
+  id: filtered-list
+  version: 1
+  params:
+    category: requirement
+    conditions:
+      - field: securite
+        operator: '='
+        value: true
+  hash: 2cae7d79b441127102b4f09bddc456e69e0b6b45d754fb7a625fe6d0462bd644
+createdBy: Hugo Bernard
+createdAt: '2026-04-24T15:00:00.000Z'

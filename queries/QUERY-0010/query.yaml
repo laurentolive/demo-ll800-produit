@@ -1,0 +1,24 @@
+id: QUERY-0010
+title: Dernier résultat de campagne
+formatVersion: 1
+template:
+  id: campaign-last-result
+  version: 1
+  params: {}
+  hash: d4bbbc0efae28f2b6a320e34169a697754455fbe00615bad59e4c79fa67d2556
+column:
+  label:
+    fr: Dernier résultat
+    en: Last result
+  appliesTo:
+    categories:
+      - test
+    objectTypes: []
+  type: enum
+  values:
+    - PASS
+    - FAIL
+    - BLOCKED
+    - INCOMPLETE
+createdBy: Hugo Bernard
+createdAt: '2026-04-24T15:00:00.000Z'

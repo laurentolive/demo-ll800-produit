@@ -3,7 +3,7 @@ projectId: ''
 branchId: ''
 objectTypeRef: carte-commande::exigence-carte
 title: Maître du bus IHM
-status: draft
+status: approved
 version: 1
 fields:
   statement: THE carte de commande SHALL assurer le rôle de maître du bus IHM.

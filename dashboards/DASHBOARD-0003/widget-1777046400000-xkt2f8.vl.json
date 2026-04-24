@@ -1,0 +1,25 @@
+{
+  "data": {
+    "name": "rows"
+  },
+  "encoding": {
+    "x": {
+      "axis": {
+        "labelAngle": -30
+      },
+      "field": "version",
+      "sort": null,
+      "title": "version",
+      "type": "nominal"
+    },
+    "y": {
+      "field": "sum_count",
+      "title": "sum_count",
+      "type": "quantitative"
+    }
+  },
+  "mark": {
+    "tooltip": true,
+    "type": "bar"
+  }
+}

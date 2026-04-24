@@ -3,7 +3,7 @@ projectId: ''
 branchId: ''
 objectTypeRef: root::exigence-systeme
 title: Détection de fermeture du hublot
-status: draft
+status: review
 version: 1
 fields:
   statement: |-
@@ -18,6 +18,9 @@ history:
     - value: draft
       at: '2026-03-17T09:30:00Z'
       by: Claire Martin
+    - value: review
+      at: '2026-04-24T14:00:00Z'
+      by: Hugo Bernard
   priority:
     - value: high
       at: '2026-03-17T09:30:00Z'

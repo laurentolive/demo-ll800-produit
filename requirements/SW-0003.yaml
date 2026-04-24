@@ -3,7 +3,7 @@ projectId: ''
 branchId: ''
 objectTypeRef: logiciel::exigence-logiciel
 title: Sauvegarde de contexte
-status: draft
+status: approved
 version: 1
 fields:
   statement: |-

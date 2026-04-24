@@ -1,0 +1,16 @@
+id: QUERY-0008
+title: Exigences moteur par statut (composant)
+formatVersion: 1
+template:
+  id: filtered-list
+  version: 1
+  params:
+    objectTypeRef: root::exigence-moteur
+    component: comp-moteur
+    conditions: []
+    combinator: AND
+    groupBy:
+      - status
+  hash: 996d513450e3da481f3b324e68087d169b557e39aaef9c6c09484d711412620d
+createdBy: Hugo Bernard
+createdAt: '2026-04-24T15:00:00.000Z'

@@ -1,0 +1,20 @@
+{
+  "data": {
+    "name": "rows"
+  },
+  "mark": {
+    "type": "text"
+  },
+  "usermeta": {
+    "polenta": {
+      "columns": [
+        "id",
+        "title",
+        "status",
+        "coverageStatus",
+        "component"
+      ],
+      "view": "table"
+    }
+  }
+}

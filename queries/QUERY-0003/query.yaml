@@ -1,0 +1,19 @@
+id: QUERY-0003
+title: Exigences produit prioritaires non approuvées
+formatVersion: 1
+template:
+  id: filtered-list
+  version: 1
+  params:
+    objectTypeRef: root::exigence-produit
+    conditions:
+      - field: priority
+        operator: '='
+        value: high
+      - field: status
+        operator: '!='
+        value: approved
+    combinator: AND
+  hash: e4e4d4fc6a9cd5a4a2e112920c9d975a4e862b8c587712e8ab3731120b70aa39
+createdBy: Hugo Bernard
+createdAt: '2026-04-24T15:00:00.000Z'

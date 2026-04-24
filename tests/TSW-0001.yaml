@@ -3,7 +3,7 @@ projectId: ''
 branchId: ''
 objectTypeRef: logiciel::test-logiciel
 title: Parcours nominal de la machine d'états
-status: draft
+status: approved
 version: 1
 preconditions: Firmware flashé sur banc HIL.
 equipment: []

@@ -1,0 +1,13 @@
+id: QUERY-0002
+title: Exigences — statut de couverture
+formatVersion: 1
+template:
+  id: filtered-list
+  version: 1
+  params:
+    category: requirement
+    groupBy:
+      - coverageStatus
+  hash: 39c070ba21dd7e8434195f29770bb2c852d01a39d24ba16efe741605397fa7e7
+createdBy: Hugo Bernard
+createdAt: '2026-04-24T15:00:00.000Z'

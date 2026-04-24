@@ -3,7 +3,7 @@ projectId: ''
 branchId: ''
 objectTypeRef: hydraulique::test-hydraulique
 title: Débit d'arrivée
-status: draft
+status: approved
 version: 1
 preconditions: Pression d'alimentation réglée à {pression_eau_min}.
 equipment: []

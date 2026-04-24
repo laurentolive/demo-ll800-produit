@@ -3,7 +3,7 @@ projectId: ''
 branchId: ''
 objectTypeRef: ihm::exigence-ihm
 title: Touches capacitives
-status: draft
+status: approved
 version: 1
 fields:
   statement: THE IHM SHALL détecter un appui sur une touche capacitive en moins de 100 ms, y compris avec des doigts humides.

@@ -1,0 +1,88 @@
+id: DASHBOARD-0001
+title: Pilotage LL800
+formatVersion: 1
+widgetOrder:
+  - widget-1777042800000-7rzhwa
+  - widget-1777042800000-crtqk7
+  - widget-1777042800000-8agns3
+  - widget-1777042800000-96umyc
+  - widget-1777042800000-76lrb4
+  - widget-1777042800000-3ypbm8
+widgets:
+  - id: widget-1777042800000-7rzhwa
+    title: Statut des exigences par composant
+    queryId: QUERY-0001
+    size: lg
+    template:
+      id: bar
+      version: 1
+      params:
+        category: component
+        series: status
+        stacked: true
+        measure: sum
+        measureColumn: count
+      hash: db72aae4cc6f1fbaccc0e67f2635317c1fb94f527069f07b63d618de99360ea9
+  - id: widget-1777042800000-crtqk7
+    title: Couverture des exigences
+    queryId: QUERY-0002
+    size: md
+    template:
+      id: pie
+      version: 1
+      params:
+        category: coverageStatus
+        measure: sum
+        measureColumn: count
+      hash: dd9394de3de50732bd51a6b3ad2b2a8f5a390e41f089e28754ee4c924f7df8f6
+  - id: widget-1777042800000-8agns3
+    title: À revalider
+    queryId: QUERY-0005
+    size: sm
+    template:
+      id: kpi
+      version: 1
+      params:
+        measure: count
+      hash: d56cac74e89206c994b57876a975cb8124a3d162bacb459c7fcc5599a3a10bf1
+  - id: widget-1777042800000-96umyc
+    title: Dernière exécution des tests
+    queryId: QUERY-0004
+    size: md
+    template:
+      id: bar
+      version: 1
+      params:
+        category: latestRunResult
+        measure: sum
+        measureColumn: count
+      hash: 880998395e7eb7d96671895e0693b77361acf2703fc679678ff36272a6ead6a6
+  - id: widget-1777042800000-76lrb4
+    title: Exigences de sécurité
+    queryId: QUERY-0006
+    size: lg
+    template:
+      id: table
+      version: 1
+      params:
+        columns:
+          - id
+          - title
+          - status
+          - coverageStatus
+          - component
+      hash: 2acd06c46c9f37a426d932303f7085ec214435e115511fe708dc044a8e69dfb1
+  - id: widget-1777042800000-3ypbm8
+    title: Exigences par version
+    queryId: QUERY-0009
+    size: md
+    template:
+      id: line
+      version: 1
+      params:
+        category: version
+        measure: sum
+        measureColumn: count
+      hash: 11f7178558173580823f861efde40a899926450b8616bcd4bc3a94c9a3108d24
+createdBy: Hugo Bernard
+createdAt: '2026-04-24T15:00:00.000Z'

@@ -3,7 +3,7 @@ projectId: ''
 branchId: ''
 objectTypeRef: root::test-systeme
 title: Mesure de la capacité de charge
-status: draft
+status: approved
 version: 1
 preconditions: Charge normalisée EN 60456 conditionnée 24 h à 20 °C / 65 % HR.
 equipment:
@@ -36,3 +36,6 @@ history:
     - value: draft
       at: '2026-04-08T12:00:00Z'
       by: Marc Dubois
+    - value: approved
+      at: '2026-04-24T14:00:00Z'
+      by: Hugo Bernard

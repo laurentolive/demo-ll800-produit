@@ -3,7 +3,7 @@ projectId: ''
 branchId: ''
 objectTypeRef: ihm::exigence-ihm
 title: Signal sonore de fin de cycle
-status: draft
+status: approved
 version: 1
 fields:
   statement: |-

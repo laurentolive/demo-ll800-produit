@@ -1,0 +1,15 @@
+id: QUERY-0013
+title: Décisions par validation
+formatVersion: 1
+parameters:
+  - name: validation
+    kind: enum
+    label: Validation
+    required: true
+    default: Validation 1.0
+    values:
+      - value: Validation 1.0
+      - value: Validation 2.0
+      - value: Validation 1.2.4
+createdBy: Hugo Bernard
+createdAt: '2026-04-24T15:00:00.000Z'
