@@ -1,0 +1,17 @@
+id: THYD-0001-run-0001
+testCaseId: THYD-0001
+result: PASS
+executedAt: '2026-05-12T10:00:00.000Z'
+executedBy: Sophie Laurent
+duration: 900
+equipmentUsed: []
+stepResults:
+  - order: 1
+    result: PASS
+    comment: ''
+    executedAt: '2026-05-12T10:00:00.000Z'
+  - order: 2
+    result: PASS
+    comment: ''
+    executedAt: '2026-05-12T10:00:00.000Z'
+notes: Banc B2, pression stabilisée à 1,2 MPa.
