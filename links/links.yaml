@@ -389,3 +389,9 @@ links:
     targetId: BIHM-0004
     createdAt: '2026-04-08T12:00:00.000Z'
     createdBy: Inès Leroy
+  - id: lnk_1779267600014_vna0
+    type: issue-impact
+    sourceId: ISS-0001
+    targetId: PRD-0004
+    createdAt: '2026-05-20T09:00:00.000Z'
+    createdBy: Marc Dubois

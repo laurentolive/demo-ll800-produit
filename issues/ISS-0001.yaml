@@ -1,0 +1,18 @@
+id: ISS-0001
+projectId: ''
+branchId: ''
+objectTypeRef: root::issue
+title: Résonance du panneau arrière en essorage
+status: ouverte
+version: 1
+fields:
+  gravite: majeure
+  description: L_WA de 76,2 dB(A) relevé par **TSYS-0004** en EVT, limite à 74 dB(A).
+origin:
+  runs:
+    - TSYS-0004-run-0001
+history:
+  status:
+    - value: ouverte
+      at: '2026-05-20T12:00:00Z'
+      by: Marc Dubois
