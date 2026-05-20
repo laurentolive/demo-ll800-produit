@@ -1,0 +1,22 @@
+id: TSYS-0001-run-0001
+testCaseId: TSYS-0001
+campaignRunId: null
+result: PASS
+executedAt: '2026-05-05T09:00:00.000Z'
+executedBy: Marc Dubois
+duration: 1800
+equipmentUsed: []
+stepResults:
+  - order: 1
+    result: PASS
+    comment: ''
+    executedAt: '2026-05-05T09:00:00.000Z'
+  - order: 2
+    result: PASS
+    comment: ''
+    executedAt: '2026-05-05T09:00:00.000Z'
+  - order: 3
+    result: PASS
+    comment: ''
+    executedAt: '2026-05-05T09:00:00.000Z'
+notes: Masse mesurée 8,03 kg.

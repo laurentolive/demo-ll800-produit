@@ -1,0 +1,16 @@
+id: REVIEW-0002
+title: Revue IHM — maquettes façade
+status: closed
+description: 'Revue close sans approbation : maquettes à reprendre après le retour UX.'
+createdBy: Inès Leroy
+createdAt: '2026-05-02T08:00:00.000Z'
+dueDate: null
+quorum: null
+reviewers:
+  - Inès Leroy
+  - Claire Martin
+objects:
+  - objectId: IHM-0001
+    objectType: requirement
+    objectVersion: 1
+    approvals: []

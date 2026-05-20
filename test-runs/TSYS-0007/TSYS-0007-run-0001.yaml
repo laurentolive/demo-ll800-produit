@@ -1,0 +1,22 @@
+id: TSYS-0007-run-0001
+testCaseId: TSYS-0007
+campaignRunId: null
+result: BLOCKED
+executedAt: '2026-05-12T09:00:00.000Z'
+executedBy: Marc Dubois
+duration: 0
+equipmentUsed: []
+stepResults:
+  - order: 1
+    result: BLOCKED
+    comment: Banc hydraulique en maintenance.
+    executedAt: '2026-05-12T09:00:00.000Z'
+  - order: 2
+    result: NOT_EXECUTED
+    comment: ''
+    executedAt: '2026-05-12T09:00:00.000Z'
+  - order: 3
+    result: NOT_EXECUTED
+    comment: ''
+    executedAt: '2026-05-12T09:00:00.000Z'
+notes: Banc indisponible jusqu'à fin mai.

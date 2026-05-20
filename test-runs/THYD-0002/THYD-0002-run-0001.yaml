@@ -1,0 +1,14 @@
+id: THYD-0002-run-0001
+testCaseId: THYD-0002
+campaignRunId: null
+result: PASS
+executedAt: '2026-05-12T14:00:00.000Z'
+executedBy: Sophie Laurent
+duration: 600
+equipmentUsed: []
+stepResults:
+  - order: 1
+    result: PASS
+    comment: ''
+    executedAt: '2026-05-12T14:00:00.000Z'
+notes: 'Débit mesuré : 9,1 L/min.'

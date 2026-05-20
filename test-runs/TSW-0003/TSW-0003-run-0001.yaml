@@ -1,0 +1,18 @@
+id: TSW-0003-run-0001
+testCaseId: TSW-0003
+campaignRunId: null
+result: FAIL
+executedAt: '2026-05-13T11:00:00.000Z'
+executedBy: Inès Leroy
+duration: 300
+equipmentUsed: []
+stepResults:
+  - order: 1
+    result: FAIL
+    comment: La touche **Départ** reste active malgré la sécurité enfant.
+    executedAt: '2026-05-13T11:00:00.000Z'
+  - order: 2
+    result: PASS
+    comment: ''
+    executedAt: '2026-05-13T11:00:00.000Z'
+notes: Anomalie remontée (ticket firmware FW-311).

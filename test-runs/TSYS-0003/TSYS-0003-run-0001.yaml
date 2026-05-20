@@ -1,0 +1,22 @@
+id: TSYS-0003-run-0001
+testCaseId: TSYS-0003
+campaignRunId: null
+result: PASS
+executedAt: '2026-05-08T08:00:00.000Z'
+executedBy: Marc Dubois
+duration: 14400
+equipmentUsed: []
+stepResults:
+  - order: 1
+    result: PASS
+    comment: ''
+    executedAt: '2026-05-08T08:00:00.000Z'
+  - order: 2
+    result: PASS
+    comment: ''
+    executedAt: '2026-05-08T08:00:00.000Z'
+  - order: 3
+    result: PASS
+    comment: ''
+    executedAt: '2026-05-08T08:00:00.000Z'
+notes: 'Moyenne 3 cycles : 43,8 L — 3 h 38.'

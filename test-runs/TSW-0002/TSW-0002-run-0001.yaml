@@ -1,0 +1,14 @@
+id: TSW-0002-run-0001
+testCaseId: TSW-0002
+campaignRunId: null
+result: PASS
+executedAt: '2026-05-13T09:00:00.000Z'
+executedBy: Inès Leroy
+duration: 120
+equipmentUsed: []
+stepResults:
+  - order: 1
+    result: PASS
+    comment: ''
+    executedAt: '2026-05-13T09:00:00.000Z'
+notes: Reset observé à 64 ms.

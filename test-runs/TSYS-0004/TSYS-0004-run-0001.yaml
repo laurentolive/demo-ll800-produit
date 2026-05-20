@@ -1,0 +1,18 @@
+id: TSYS-0004-run-0001
+testCaseId: TSYS-0004
+campaignRunId: null
+result: FAIL
+executedAt: '2026-05-11T14:00:00.000Z'
+executedBy: Marc Dubois
+duration: 3600
+equipmentUsed: []
+stepResults:
+  - order: 1
+    result: PASS
+    comment: ''
+    executedAt: '2026-05-11T14:00:00.000Z'
+  - order: 2
+    result: FAIL
+    comment: 'L_WA mesuré : **76,2 dB(A)** — résonance du panneau arrière.'
+    executedAt: '2026-05-11T14:00:00.000Z'
+notes: 'Action : ajout d''un raidisseur sur le panneau arrière.'
