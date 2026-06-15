@@ -11,7 +11,8 @@ fields:
   source: Marketing
   marches: EU
   claim: true
-  kpi_cible: 1200 tr/min
+  kpi_cible: 1400 tr/min
   responsable: Claire Martin
   acceptanceCriteria: '- [ ] Vitesse mesurée au tachymètre ≥ {vitesse_essorage} − 2 %'
 jiraLinks: []
+needsRevalidation: true

@@ -71,6 +71,12 @@ links:
     targetId: SW-0004
     createdAt: '2026-03-17T09:30:00.000Z'
     createdBy: Claire Martin
+  - id: lnk_1781508600251_fmju
+    type: raffinement
+    sourceId: PRD-0010
+    targetId: SYS-0013
+    createdAt: '2026-06-15T07:30:00.000Z'
+    createdBy: Claire Martin
   - id: lnk_1773739800832_59sn
     type: implementation
     sourceId: SYS-0001
@@ -341,6 +347,13 @@ links:
     coverageType: full
     createdAt: '2026-04-08T12:00:00.000Z'
     createdBy: Claire Martin
+  - id: lnk_1781508600886_g46m
+    type: verification
+    sourceId: TSYS-0011
+    targetId: SYS-0011
+    coverageType: full
+    createdAt: '2026-06-15T07:30:00.000Z'
+    createdBy: Marc Dubois
   - id: lnk_1775649600684_gqcg
     type: implements-interface
     sourceId: CC-0004

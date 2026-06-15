@@ -3,13 +3,13 @@ projectId: ''
 branchId: ''
 objectTypeRef: root::exigence-systeme
 title: Profil de vitesse d'essorage
-status: approved
-version: 1
+status: review
+version: 2
 fields:
   statement: >-
     WHEN la phase d'essorage démarre
 
-    THE carte de commande SHALL commander au moteur une rampe jusqu'à {comp-moteur::vitesse_essorage_max} en moins de 90
+    THE carte de commande SHALL commander au moteur une rampe jusqu'à {comp-moteur::vitesse_essorage_max} en moins de 60
     s.
 
 
@@ -22,6 +22,6 @@ fields:
   domaine: SW
   securite: false
   acceptanceCriteria: |-
-    - [ ] Vitesse cible atteinte < 90 s
+    - [ ] Vitesse cible atteinte < 60 s
     - [ ] Pas de dépassement > 3 %
 jiraLinks: []

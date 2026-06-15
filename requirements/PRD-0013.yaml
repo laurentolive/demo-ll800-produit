@@ -1,0 +1,15 @@
+id: PRD-0013
+projectId: ''
+branchId: ''
+objectTypeRef: root::exigence-produit
+title: Séchage intégré
+status: draft
+version: 1
+fields:
+  statement: |-
+    WHERE la fonction séchage est présente
+    THE lave-linge SHALL sécher une charge de 5 kg en moins de 3 h.
+  priority: low
+  source: Marketing
+  marches: CN, JP
+jiraLinks: []

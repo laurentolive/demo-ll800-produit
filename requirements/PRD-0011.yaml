@@ -3,11 +3,12 @@ projectId: ''
 branchId: ''
 objectTypeRef: root::exigence-produit
 title: Mode silence nocturne
-status: review
+status: obsolete
 version: 1
 fields:
   statement: THE lave-linge SHALL limiter la vitesse d'essorage à 800 tr/min entre 22 h et 7 h.
   priority: low
   source: Marketing
   marches: EU
+  rationale: 'Abandonnée en revue post-EVT : remplacée par le départ différé.'
 jiraLinks: []

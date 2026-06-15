@@ -1,0 +1,19 @@
+id: TSYS-0011
+projectId: ''
+branchId: ''
+objectTypeRef: root::test-systeme
+title: Bruit de la pompe de vidange
+status: draft
+version: 1
+preconditions: Pompe alimentée sur banc, référence fournisseur {comp-inexistant::ref_pompe}.
+equipment: []
+steps:
+  - order: 1
+    action: Mesurer le bruit de la pompe pendant la vidange.
+    expectedResult: Bruit ≤ {comp-pompe-vidange::bruit_max}.
+    notes: null
+postconditions: ''
+fields:
+  niveau: intégration
+  duree_min: 30
+  moyens: Sonomètre

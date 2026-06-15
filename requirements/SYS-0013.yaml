@@ -1,0 +1,14 @@
+id: SYS-0013
+projectId: ''
+branchId: ''
+objectTypeRef: root::exigence-systeme
+title: Remontée d'état vers le module Wi-Fi
+status: draft
+version: 1
+fields:
+  statement: |-
+    WHERE le module Wi-Fi est présent
+    THE carte de commande SHALL lui transmettre l'état du cycle toutes les 5 s.
+  priority: low
+  domaine: SW
+jiraLinks: []

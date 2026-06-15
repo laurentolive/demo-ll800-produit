@@ -1,0 +1,13 @@
+id: PRD-0012
+projectId: ''
+branchId: ''
+objectTypeRef: root::exigence-produit
+title: Facilité d'entretien du filtre
+status: draft
+version: 1
+fields:
+  statement: Le filtre de la pompe doit être facile d'accès, sans outil.
+  priority: high
+  source: Retour terrain
+  reference_client: CLI-12
+jiraLinks: []

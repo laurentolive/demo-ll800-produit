@@ -49,6 +49,16 @@ root:
         name: Mode silence nocturne
         objectId: PRD-0011
         children: []
+      - id: 706541d2-05d8-4414-af63-525e4aea02f4
+        kind: item
+        name: Facilité d'entretien du filtre
+        objectId: PRD-0012
+        children: []
+      - id: 1ff3818e-8a06-410a-a64d-dec2fe1c2c04
+        kind: item
+        name: Séchage intégré
+        objectId: PRD-0013
+        children: []
   - id: c7214f6e-1be8-407c-a7e6-4b955e363a6c
     kind: folder
     name: Réglementaire

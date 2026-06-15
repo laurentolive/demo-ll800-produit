@@ -26,3 +26,4 @@ fields:
   niveau: système
   duree_min: 20
   moyens: Tachymètre
+needsRevalidation: true

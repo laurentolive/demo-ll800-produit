@@ -10,6 +10,11 @@ root:
         name: Architecture fonctionnelle
         objectId: SYS-0001
         children: []
+      - id: d0ae489d-16a0-4ba5-a140-0ac12bd93aee
+        kind: item
+        name: Remontée d'état vers le module Wi-Fi
+        objectId: SYS-0013
+        children: []
   - id: bdf4661d-35af-4f2a-a27b-60ae03d042c9
     kind: folder
     name: Cycle de lavage
