@@ -8,7 +8,7 @@ dependencies:
     localParent: hydraulique
   - name: comp-module-wifi
     url: https://github.com/laurentolive/demo-ll800-comp-module-wifi.git
-    pin: f02ce09a017cca60ad9dc64d283ceab14e2b6c3b
+    pin: 6a84976dcfef041b9e267191400cc9beada812ed
   - name: if-bus-interne
     url: https://github.com/laurentolive/demo-ll800-if-bus-interne.git
-    pin: v1.0
+    pin: v1.1

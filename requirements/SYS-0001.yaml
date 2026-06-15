@@ -25,6 +25,11 @@ fields:
     Diagramme de référence maintenu par H. Bernard.
     Toute modification passe en revue système.
   derniere_revue: '2026-04-24T16:00:00.000Z'
+  documents:
+    - label: Règlement UE 2019/2014
+      url: https://eur-lex.europa.eu/eli/reg_del/2019/2014/oj
+    - label: Note de cadrage (partage interne)
+      url: file://serveur/ll800/cadrage.pdf
 jiraLinks: []
 history:
   status:

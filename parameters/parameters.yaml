@@ -29,7 +29,7 @@ parameters:
   puissance_veille_max:
     value: '0.5'
     unit: W
-    description: Consommation max. en veille
+    description: Consommation max. en veille (hors Wi-Fi connecté)
   temperature_max_lavage:
     value: '90'
     unit: °C
@@ -39,6 +39,6 @@ parameters:
     unit: V
     description: Tension secteur nominale
   vitesse_essorage:
-    value: '1200'
+    value: '1400'
     unit: tr/min
     description: Vitesse d'essorage maximale annoncée
