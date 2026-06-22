@@ -3,7 +3,7 @@ projectId: ''
 branchId: ''
 objectTypeRef: root::issue
 title: Résonance du panneau arrière en essorage
-status: ouverte
+status: corrigee
 version: 1
 fields:
   gravite: majeure
@@ -16,3 +16,6 @@ history:
     - value: ouverte
       at: '2026-05-20T12:00:00Z'
       by: Marc Dubois
+    - value: corrigee
+      at: '2026-06-22T07:00:00Z'
+      by: Claire Martin
