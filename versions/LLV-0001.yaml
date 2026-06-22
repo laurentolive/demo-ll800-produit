@@ -1,0 +1,164 @@
+id: LLV-0001
+objectTypeRef: root::version
+title: '1.0'
+status: en_cours
+version: 1
+components:
+  comp-moteur: MOTV-0001
+  comp-pompe-vidange: POMV-0001
+  comp-module-wifi: WIFV-0001
+changes:
+  - id: PRD-0001
+  - id: PRD-0002
+  - id: PRD-0003
+  - id: PRD-0004
+  - id: PRD-0005
+  - id: PRD-0006
+  - id: PRD-0007
+  - id: PRD-0008
+  - id: PRD-0009
+  - id: PRD-0010
+  - id: PRD-0011
+  - id: PRD-0012
+  - id: PRD-0013
+  - id: SYS-0001
+  - id: SYS-0002
+  - id: SYS-0003
+  - id: SYS-0004
+  - id: SYS-0005
+  - id: SYS-0006
+  - id: SYS-0007
+  - id: SYS-0008
+  - id: SYS-0009
+  - id: SYS-0010
+  - id: SYS-0011
+  - id: SYS-0012
+  - id: SYS-0013
+  - id: SYS-0014
+  - id: HYD-0001
+  - id: HYD-0002
+  - id: HYD-0003
+  - id: HYD-0004
+  - id: EV-0001
+  - id: EV-0002
+  - id: EV-0003
+  - id: CC-0001
+  - id: CC-0002
+  - id: CC-0003
+  - id: CC-0004
+  - id: CC-0005
+  - id: SW-0001
+  - id: SW-0002
+  - id: SW-0003
+  - id: SW-0004
+  - id: SW-0005
+  - id: SW-0006
+  - id: BIHM-0001
+  - id: BIHM-0002
+  - id: BIHM-0003
+  - id: BIHM-0004
+  - id: IHM-0001
+  - id: IHM-0002
+  - id: IHM-0003
+  - id: IHM-0004
+  - id: TSYS-0001
+  - id: TSYS-0002
+  - id: TSYS-0003
+  - id: TSYS-0004
+  - id: TSYS-0005
+  - id: TSYS-0006
+  - id: TSYS-0007
+  - id: TSYS-0008
+  - id: TSYS-0009
+  - id: TSYS-0010
+  - id: TSYS-0011
+  - id: THYD-0001
+  - id: THYD-0002
+  - id: TSW-0001
+  - id: TSW-0002
+  - id: TSW-0003
+  - id: ISS-0001
+fields:
+  description: Première version livrée à la présérie.
+history:
+  status:
+    - value: en_cours
+      at: '2026-06-22T07:00:01Z'
+      by: Claire Martin
+  changes:
+    - value: []
+      at: '2026-06-22T07:00:02Z'
+      by: Claire Martin
+    - value:
+        - BIHM-0001
+        - BIHM-0002
+        - BIHM-0003
+        - BIHM-0004
+        - CC-0001
+        - CC-0002
+        - CC-0003
+        - CC-0004
+        - CC-0005
+        - EV-0001
+        - EV-0002
+        - EV-0003
+        - HYD-0001
+        - HYD-0002
+        - HYD-0003
+        - HYD-0004
+        - IHM-0001
+        - IHM-0002
+        - IHM-0003
+        - IHM-0004
+        - ISS-0001
+        - PRD-0001
+        - PRD-0002
+        - PRD-0003
+        - PRD-0004
+        - PRD-0005
+        - PRD-0006
+        - PRD-0007
+        - PRD-0008
+        - PRD-0009
+        - PRD-0010
+        - PRD-0011
+        - PRD-0012
+        - PRD-0013
+        - SW-0001
+        - SW-0002
+        - SW-0003
+        - SW-0004
+        - SW-0005
+        - SW-0006
+        - SYS-0001
+        - SYS-0002
+        - SYS-0003
+        - SYS-0004
+        - SYS-0005
+        - SYS-0006
+        - SYS-0007
+        - SYS-0008
+        - SYS-0009
+        - SYS-0010
+        - SYS-0011
+        - SYS-0012
+        - SYS-0013
+        - SYS-0014
+        - THYD-0001
+        - THYD-0002
+        - TSW-0001
+        - TSW-0002
+        - TSW-0003
+        - TSYS-0001
+        - TSYS-0002
+        - TSYS-0003
+        - TSYS-0004
+        - TSYS-0005
+        - TSYS-0006
+        - TSYS-0007
+        - TSYS-0008
+        - TSYS-0009
+        - TSYS-0010
+        - TSYS-0011
+      at: '2026-06-22T07:00:04Z'
+      by: Claire Martin
