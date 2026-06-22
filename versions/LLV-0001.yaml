@@ -1,7 +1,7 @@
 id: LLV-0001
 objectTypeRef: root::version
 title: '1.0'
-status: en_cours
+status: released
 version: 1
 components:
   comp-moteur: MOTV-0001
@@ -85,6 +85,9 @@ history:
     - value: en_cours
       at: '2026-06-22T07:00:01Z'
       by: Claire Martin
+    - value: released
+      at: '2026-06-22T07:00:07Z'
+      by: Claire Martin
   changes:
     - value: []
       at: '2026-06-22T07:00:02Z'
@@ -162,3 +165,608 @@ history:
         - TSYS-0011
       at: '2026-06-22T07:00:04Z'
       by: Claire Martin
+freeze:
+  tag: ll800-produit-1.0
+  sha: 6f8d10e588dcc599d708dba142217e6d57d666e9
+  at: '2026-06-22T07:00:06.000Z'
+analysis:
+  computedAt: '2026-06-22T07:00:05.000Z'
+  frozen: true
+  roots:
+    - elementId: PRD-0001
+      elementType: requirement
+      title: Capacité de charge
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: PRD-0002
+      elementType: requirement
+      title: Vitesse d'essorage maximale
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: PRD-0003
+      elementType: requirement
+      title: Consommation d'eau du programme Eco 40-60
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: PRD-0004
+      elementType: requirement
+      title: Niveau sonore en essorage
+      component: ll800-produit
+      viaIssues:
+        - ISS-0001
+      descendantTree: []
+      ascendantTree: []
+    - elementId: PRD-0005
+      elementType: requirement
+      title: Durée du programme Eco 40-60
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: PRD-0006
+      elementType: requirement
+      title: Départ différé
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: PRD-0007
+      elementType: requirement
+      title: Sécurité enfant
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: PRD-0008
+      elementType: requirement
+      title: Verrouillage du hublot
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: PRD-0009
+      elementType: requirement
+      title: Protection anti-débordement
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: PRD-0010
+      elementType: requirement
+      title: Pilotage à distance par application
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: PRD-0011
+      elementType: requirement
+      title: Mode silence nocturne
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: PRD-0012
+      elementType: requirement
+      title: Facilité d'entretien du filtre
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: PRD-0013
+      elementType: requirement
+      title: Séchage intégré
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: SYS-0001
+      elementType: requirement
+      title: Architecture fonctionnelle
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: SYS-0002
+      elementType: requirement
+      title: Profil de vitesse d'essorage
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: SYS-0003
+      elementType: requirement
+      title: Machine d'états du cycle
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: SYS-0004
+      elementType: requirement
+      title: Détection de balourd
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: SYS-0005
+      elementType: requirement
+      title: Remplissage
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: SYS-0006
+      elementType: requirement
+      title: Vidange
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: SYS-0007
+      elementType: requirement
+      title: Régulation de température de l'eau
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: SYS-0008
+      elementType: requirement
+      title: Surchauffe de la résistance
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: SYS-0009
+      elementType: requirement
+      title: Consommation en veille
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: SYS-0010
+      elementType: requirement
+      title: Reprise après coupure secteur
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: SYS-0011
+      elementType: requirement
+      title: Bruit de la pompe de vidange
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: SYS-0012
+      elementType: requirement
+      title: Détection de fermeture du hublot
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: SYS-0013
+      elementType: requirement
+      title: Remontée d'état vers le module Wi-Fi
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: SYS-0014
+      elementType: requirement
+      title: Commande du verrou de hublot
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: HYD-0001
+      elementType: requirement
+      title: Débit d'arrivée d'eau
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: HYD-0002
+      elementType: requirement
+      title: Capteur de niveau
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: HYD-0003
+      elementType: requirement
+      title: Étanchéité
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: HYD-0004
+      elementType: requirement
+      title: Anti-siphonnage
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: EV-0001
+      elementType: requirement
+      title: Électrovanne de prélavage
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: EV-0002
+      elementType: requirement
+      title: Électrovanne de lavage
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: EV-0003
+      elementType: requirement
+      title: Fermeture sans alimentation
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: CC-0001
+      elementType: requirement
+      title: Microcontrôleur principal
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: CC-0002
+      elementType: requirement
+      title: Alimentation secteur
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: CC-0003
+      elementType: requirement
+      title: Pilotage de la résistance
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: CC-0004
+      elementType: requirement
+      title: Contrôleur du bus interne
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: CC-0005
+      elementType: requirement
+      title: Maître du bus IHM
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: SW-0001
+      elementType: requirement
+      title: Séquenceur de cycle
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: SW-0002
+      elementType: requirement
+      title: Chien de garde
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: SW-0003
+      elementType: requirement
+      title: Sauvegarde de contexte
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: SW-0004
+      elementType: requirement
+      title: Gestion du départ différé
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: SW-0005
+      elementType: requirement
+      title: Verrouillage des touches
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: SW-0006
+      elementType: requirement
+      title: Journal de défauts
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: BIHM-0001
+      elementType: requirement
+      title: Trame de rafraîchissement
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: BIHM-0002
+      elementType: requirement
+      title: Acquittement des touches
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: BIHM-0003
+      elementType: requirement
+      title: Timeout de communication
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: BIHM-0004
+      elementType: requirement
+      title: Adressage
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: IHM-0001
+      elementType: requirement
+      title: Affichage du temps restant
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: IHM-0002
+      elementType: requirement
+      title: Touches capacitives
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: IHM-0003
+      elementType: requirement
+      title: Signal sonore de fin de cycle
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: IHM-0004
+      elementType: requirement
+      title: Conformité au bus IHM
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: TSYS-0001
+      elementType: test_case
+      title: Mesure de la capacité de charge
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: TSYS-0002
+      elementType: test_case
+      title: Mesure de la vitesse d'essorage
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: TSYS-0003
+      elementType: test_case
+      title: Consommation d'eau Eco 40-60
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: TSYS-0004
+      elementType: test_case
+      title: Mesure acoustique en essorage
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: TSYS-0005
+      elementType: test_case
+      title: Vérification des KPI produit (itératif par exigence)
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: TSYS-0006
+      elementType: test_case
+      title: Verrouillage du hublot
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: TSYS-0007
+      elementType: test_case
+      title: Protection anti-débordement
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: TSYS-0008
+      elementType: test_case
+      title: Détection de balourd
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: TSYS-0009
+      elementType: test_case
+      title: Consommation en veille
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: TSYS-0010
+      elementType: test_case
+      title: Reprise après coupure secteur
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: TSYS-0011
+      elementType: test_case
+      title: Bruit de la pompe de vidange
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: THYD-0001
+      elementType: test_case
+      title: Étanchéité sous pression
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: THYD-0002
+      elementType: test_case
+      title: Débit d'arrivée
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: TSW-0001
+      elementType: test_case
+      title: Parcours nominal de la machine d'états
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: TSW-0002
+      elementType: test_case
+      title: Chien de garde
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: TSW-0003
+      elementType: test_case
+      title: Sécurité enfant
+      component: ll800-produit
+      descendantTree: []
+      ascendantTree: []
+    - elementId: MOT-0001
+      elementType: requirement
+      title: Vitesse maximale
+      component: comp-moteur
+      descendantTree: []
+      ascendantTree: []
+    - elementId: MOT-0002
+      elementType: requirement
+      title: Couple nominal
+      component: comp-moteur
+      descendantTree: []
+      ascendantTree: []
+    - elementId: MOT-0003
+      elementType: requirement
+      title: Protection thermique du bobinage
+      component: comp-moteur
+      descendantTree: []
+      ascendantTree: []
+    - elementId: MOT-0004
+      elementType: requirement
+      title: Protection contre les surintensités
+      component: comp-moteur
+      descendantTree: []
+      ascendantTree: []
+    - elementId: MOT-0005
+      elementType: requirement
+      title: Mesure du balourd
+      component: comp-moteur
+      descendantTree: []
+      ascendantTree: []
+    - elementId: MOT-0006
+      elementType: requirement
+      title: Périphérique du bus interne
+      component: comp-moteur
+      descendantTree: []
+      ascendantTree: []
+    - elementId: MOT-0007
+      elementType: requirement
+      title: Rendement de l'onduleur
+      component: comp-moteur
+      descendantTree: []
+      ascendantTree: []
+    - elementId: FWM-0001
+      elementType: requirement
+      title: Contrôle vectoriel (FOC)
+      component: comp-moteur
+      descendantTree: []
+      ascendantTree: []
+    - elementId: FWM-0002
+      elementType: requirement
+      title: Estimation de charge
+      component: comp-moteur
+      descendantTree: []
+      ascendantTree: []
+    - elementId: FWM-0003
+      elementType: requirement
+      title: Arrêt sûr
+      component: comp-moteur
+      descendantTree: []
+      ascendantTree: []
+    - elementId: TMOT-0001
+      elementType: test_case
+      title: Montée en vitesse
+      component: comp-moteur
+      descendantTree: []
+      ascendantTree: []
+    - elementId: TMOT-0002
+      elementType: test_case
+      title: Protection thermique
+      component: comp-moteur
+      descendantTree: []
+      ascendantTree: []
+    - elementId: TMOT-0003
+      elementType: test_case
+      title: Coupure sur surintensité
+      component: comp-moteur
+      descendantTree: []
+      ascendantTree: []
+    - elementId: TMOT-0004
+      elementType: test_case
+      title: Couple nominal
+      component: comp-moteur
+      descendantTree: []
+      ascendantTree: []
+    - elementId: BUS-0001
+      elementType: requirement
+      title: Débit du bus
+      component: if-bus-interne
+      descendantTree: []
+      ascendantTree: []
+    - elementId: BUS-0002
+      elementType: requirement
+      title: Délai de réponse d'un périphérique
+      component: if-bus-interne
+      descendantTree: []
+      ascendantTree: []
+    - elementId: BUS-0003
+      elementType: requirement
+      title: Signalement de défaut
+      component: if-bus-interne
+      descendantTree: []
+      ascendantTree: []
+    - elementId: BUS-0004
+      elementType: requirement
+      title: Scrutation cyclique
+      component: if-bus-interne
+      descendantTree: []
+      ascendantTree: []
+    - elementId: BUS-0005
+      elementType: requirement
+      title: Contrôle d'intégrité CRC-16
+      component: if-bus-interne
+      descendantTree: []
+      ascendantTree: []
+    - elementId: BUS-0006
+      elementType: requirement
+      title: Mode veille du bus
+      component: if-bus-interne
+      descendantTree: []
+      ascendantTree: []
+    - elementId: POMP-0001
+      elementType: requirement
+      title: Débit nominal
+      component: comp-pompe-vidange
+      descendantTree: []
+      ascendantTree: []
+    - elementId: POMP-0002
+      elementType: requirement
+      title: Hauteur de refoulement
+      component: comp-pompe-vidange
+      descendantTree: []
+      ascendantTree: []
+    - elementId: POMP-0003
+      elementType: requirement
+      title: Fonctionnement à sec
+      component: comp-pompe-vidange
+      descendantTree: []
+      ascendantTree: []
+    - elementId: POMP-0004
+      elementType: requirement
+      title: Filtre accessible
+      component: comp-pompe-vidange
+      descendantTree: []
+      ascendantTree: []
+    - elementId: TPOMP-0001
+      elementType: test_case
+      title: Débit nominal
+      component: comp-pompe-vidange
+      descendantTree: []
+      ascendantTree: []
+    - elementId: TPOMP-0002
+      elementType: test_case
+      title: Fonctionnement à sec
+      component: comp-pompe-vidange
+      descendantTree: []
+      ascendantTree: []
+    - elementId: WIFI-0001
+      elementType: requirement
+      title: Connectivité Wi-Fi
+      component: comp-module-wifi
+      descendantTree: []
+      ascendantTree: []
+    - elementId: WIFI-0002
+      elementType: requirement
+      title: Appairage
+      component: comp-module-wifi
+      descendantTree: []
+      ascendantTree: []
+    - elementId: WIFI-0003
+      elementType: requirement
+      title: Mise à jour OTA
+      component: comp-module-wifi
+      descendantTree: []
+      ascendantTree: []
+    - elementId: WIFI-0004
+      elementType: requirement
+      title: Périphérique du bus interne
+      component: comp-module-wifi
+      descendantTree: []
+      ascendantTree: []
+  rows: []
