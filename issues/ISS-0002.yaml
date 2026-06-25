@@ -1,0 +1,18 @@
+id: ISS-0002
+projectId: ''
+branchId: ''
+objectTypeRef: root::issue
+title: 'Détection de balourd : couverture partielle'
+status: en_cours
+version: 1
+fields:
+  gravite: mineure
+  description: Dérogation accordée en validation 1.0, endurance à exécuter.
+origin:
+  decisions:
+    - VAL-0001/SYS-0004
+history:
+  status:
+    - value: en_cours
+      at: '2026-06-25T07:00:00Z'
+      by: Claire Martin

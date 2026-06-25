@@ -408,3 +408,9 @@ links:
     targetId: PRD-0004
     createdAt: '2026-05-20T09:00:00.000Z'
     createdBy: Marc Dubois
+  - id: lnk_1781508600418_dfu3
+    type: issue-impact
+    sourceId: ISS-0002
+    targetId: SYS-0004
+    createdAt: '2026-06-15T07:30:00.000Z'
+    createdBy: Claire Martin

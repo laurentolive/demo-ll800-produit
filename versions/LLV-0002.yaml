@@ -1,0 +1,22 @@
+id: LLV-0002
+objectTypeRef: root::version
+title: '2.0'
+status: en_cours
+version: 1
+basedOn: LLV-0001
+components:
+  comp-moteur: MOTV-0001
+  comp-pompe-vidange: POMV-0001
+  comp-module-wifi: WIFV-0001
+changes: []
+fields:
+  description: Essorage 1400 tr/min confirmé, pilotage à distance.
+history:
+  status:
+    - value: en_cours
+      at: '2026-06-25T07:00:01Z'
+      by: Claire Martin
+  changes:
+    - value: []
+      at: '2026-06-25T07:00:02Z'
+      by: Claire Martin
