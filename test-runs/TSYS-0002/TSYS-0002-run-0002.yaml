@@ -1,0 +1,59 @@
+id: TSYS-0002-run-0002
+testCaseId: TSYS-0002
+campaignEntry:
+  campaignId: CAMP-0002
+  entryId: TSYS-0002-1
+result: PASS
+executedAt: '2026-07-02T10:00:00.000Z'
+executedBy: Marc Dubois
+fields:
+  banc_utilise: Banc B2
+testedConfig:
+  component: ll800-produit
+  ref: LLV-0002
+  label: '2.0'
+  state: in_progress
+  commit: ea7cb2a880adc45766fb21345bc91d0f51732d4c
+  changesAt: '2026-06-25T07:00:02Z'
+  components:
+    comp-moteur:
+      ref: MOTV-0001
+      label: 1.2.4
+      state: released
+      commit: 64ef7b9b58b298b3141da82f5023e31a538d2fd9
+      changesAt: '2026-06-17T07:00:03Z'
+      components:
+        if-bus-interne:
+          ref: IFV-0001
+          label: '1.1'
+          state: released
+          commit: 860b94d7009fc77a4d08660c377302c2b720492f
+          changesAt: '2026-06-16T07:00:03Z'
+    comp-pompe-vidange:
+      ref: POMV-0001
+      label: '1.0'
+      state: released
+      commit: 7c0e2f77fb3e07c69132fdd15fef8ba3a41d291e
+      changesAt: '2026-06-16T09:00:03Z'
+    comp-module-wifi:
+      ref: WIFV-0001
+      label: '1.0'
+      state: released
+      commit: 6a84976dcfef041b9e267191400cc9beada812ed
+      changesAt: '2026-06-16T08:00:03Z'
+duration: 1200
+equipmentUsed: []
+stepResults:
+  - order: 1
+    result: PASS
+    comment: ''
+    fields:
+      mesure: 1392 tr/min
+    executedAt: '2026-07-02T10:00:00.000Z'
+  - order: 2
+    result: PASS
+    comment: ''
+    fields:
+      mesure: 84 s
+    executedAt: '2026-07-02T10:00:00.000Z'
+notes: 'Vitesse max relevée : 1392 tr/min.'

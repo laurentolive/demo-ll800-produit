@@ -1,0 +1,26 @@
+version: 1
+views:
+  - name: Revue marketing
+    settings:
+      excel:
+        - section
+        - id
+        - name
+        - status
+        - priority
+        - source
+        - marches
+        - kpi_cible
+      showFoldersExcel: true
+      freezeColCountExcel: 3
+  - name: Suivi de conformité
+    settings:
+      excel:
+        - id
+        - name
+        - status
+        - coverageStatus
+        - designStatus
+        - validationStatus
+      showFoldersExcel: false
+      freezeColCountExcel: 2
