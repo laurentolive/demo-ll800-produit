@@ -1,0 +1,18 @@
+id: TSYS-0002-run-0002
+testCaseId: TSYS-0002
+campaignRunId: null
+result: PASS
+executedAt: '2026-07-02T10:00:00.000Z'
+executedBy: Marc Dubois
+duration: 1200
+equipmentUsed: []
+stepResults:
+  - order: 1
+    result: PASS
+    comment: ''
+    executedAt: '2026-07-02T10:00:00.000Z'
+  - order: 2
+    result: PASS
+    comment: ''
+    executedAt: '2026-07-02T10:00:00.000Z'
+notes: 'Vitesse max relevée : 1392 tr/min.'

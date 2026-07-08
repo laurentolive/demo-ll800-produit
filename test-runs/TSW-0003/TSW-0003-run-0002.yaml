@@ -1,0 +1,18 @@
+id: TSW-0003-run-0002
+testCaseId: TSW-0003
+campaignRunId: null
+result: PASS
+executedAt: '2026-07-06T11:00:00.000Z'
+executedBy: Inès Leroy
+duration: 280
+equipmentUsed: []
+stepResults:
+  - order: 1
+    result: PASS
+    comment: ''
+    executedAt: '2026-07-06T11:00:00.000Z'
+  - order: 2
+    result: PASS
+    comment: ''
+    executedAt: '2026-07-06T11:00:00.000Z'
+notes: Corrigé en firmware 1.3.0.

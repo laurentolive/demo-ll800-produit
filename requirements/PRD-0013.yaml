@@ -3,7 +3,7 @@ projectId: ''
 branchId: ''
 objectTypeRef: root::exigence-produit
 title: Séchage intégré
-status: draft
+status: rejected
 version: 1
 fields:
   statement: |-
@@ -12,4 +12,5 @@ fields:
   priority: low
   source: Marketing
   marches: CN, JP
+  rationale: 'Rejetée : hors périmètre de la plateforme LL800 (coût, encombrement).'
 jiraLinks: []

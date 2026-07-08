@@ -1,0 +1,32 @@
+id: REVIEW-0003
+title: Revue des évolutions post-EVT
+status: open
+description: 'Évolutions issues de la campagne EVT : essorage, remontée d''état Wi-Fi, entretien du filtre.'
+createdBy: Hugo Bernard
+createdAt: '2026-07-08T08:00:00.000Z'
+dueDate: '2026-07-31'
+quorum: null
+reviewers:
+  - Hugo Bernard
+  - Inès Leroy
+  - Marc Dubois
+objects:
+  - objectId: SYS-0002
+    objectType: requirement
+    objectVersion: 2
+    approvals:
+      - reviewerId: Inès Leroy
+        approvedAt: '2026-07-09T10:00:00.000Z'
+        objectId: SYS-0002
+  - objectId: SYS-0013
+    objectType: requirement
+    objectVersion: 1
+    approvals: []
+  - objectId: PRD-0012
+    objectType: requirement
+    objectVersion: 1
+    approvals: []
+  - objectId: TSYS-0011
+    objectType: test_case
+    objectVersion: 1
+    approvals: []

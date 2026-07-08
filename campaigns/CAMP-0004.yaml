@@ -1,0 +1,46 @@
+id: CAMP-0004
+title: Endurance 5000 cycles
+objectTypeRef: root::campagne-produit
+fields:
+  jalon: DVT
+  lieu: Sous-traitant
+  description: 'Abandonnée : reportée au jalon PVT (budget).'
+component: root
+status: abandoned
+testCaseIds:
+  - TSYS-0008
+runs:
+  - entryId: TSYS-0008-1
+    testCaseId: TSYS-0008
+    testSnapshot:
+      id: TSYS-0008
+      projectId: ''
+      branchId: ''
+      objectTypeRef: root::test-systeme
+      title: Détection de balourd
+      status: review
+      version: 1
+      preconditions: Masse de balourd de 500 g fixée sur la paroi du tambour.
+      equipment: []
+      steps:
+        - order: 1
+          action: Lancer un essorage.
+          expectedResult: Le système détecte le balourd à 300 tr/min.
+          notes: null
+        - order: 2
+          action: Observer la suite du cycle.
+          expectedResult: Redistribution puis essorage limité à 600 tr/min.
+          notes: null
+      postconditions: ''
+      fields:
+        niveau: endurance
+        duree_min: 600
+        destructif: true
+        moyens: Balance
+      createdAt: null
+      createdBy: null
+      updatedAt: null
+      updatedBy: null
+    status: pending
+createdAt: '2026-06-20T08:00:00.000Z'
+completedAt: '2026-07-08T09:00:00.000Z'

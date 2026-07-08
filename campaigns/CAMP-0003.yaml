@@ -1,0 +1,230 @@
+id: CAMP-0003
+title: Vérification des KPI produit
+objectTypeRef: root::campagne-produit
+fields:
+  jalon: DVT
+  description: 'Campagne générée depuis le test itérant **TSYS-0005** : une instance par exigence liée.'
+component: root
+status: in_progress
+testCaseIds:
+  - TSYS-0005
+runs:
+  - entryId: TSYS-0005-1
+    testCaseId: TSYS-0005
+    requirementId: PRD-0001
+    testSnapshot:
+      id: TSYS-0005
+      projectId: ''
+      branchId: ''
+      objectTypeRef: root::test-systeme
+      title: Vérification des KPI produit (itératif par exigence)
+      status: approved
+      version: 1
+      preconditions: 'Exigence vérifiée : **{req.id}** — {req.title}.'
+      equipment: []
+      steps:
+        - order: 1
+          action: Relever la mesure correspondant à l'exigence {req.id}.
+          expectedResult: 'La mesure respecte le KPI cible : {req.kpi_cible}.'
+          notes: null
+        - order: 2
+          action: Consigner la mesure dans le rapport de campagne.
+          expectedResult: Mesure consignée avec la référence {req.id}.
+          notes: null
+      postconditions: ''
+      fields:
+        niveau: système
+        duree_min: 15
+      createdAt: null
+      createdBy: null
+      updatedAt: null
+      updatedBy: null
+    status: PASS
+    runId: TSYS-0005-run-0001
+    executedAt: '2026-07-07T10:00:00.000Z'
+    executedBy: Marc Dubois
+    resolvedParams:
+      req.id: PRD-0001
+      req.title: Capacité de charge
+      req.kpi_cible: 8 kg
+  - entryId: TSYS-0005-2
+    testCaseId: TSYS-0005
+    requirementId: PRD-0002
+    testSnapshot:
+      id: TSYS-0005
+      projectId: ''
+      branchId: ''
+      objectTypeRef: root::test-systeme
+      title: Vérification des KPI produit (itératif par exigence)
+      status: approved
+      version: 1
+      preconditions: 'Exigence vérifiée : **{req.id}** — {req.title}.'
+      equipment: []
+      steps:
+        - order: 1
+          action: Relever la mesure correspondant à l'exigence {req.id}.
+          expectedResult: 'La mesure respecte le KPI cible : {req.kpi_cible}.'
+          notes: null
+        - order: 2
+          action: Consigner la mesure dans le rapport de campagne.
+          expectedResult: Mesure consignée avec la référence {req.id}.
+          notes: null
+      postconditions: ''
+      fields:
+        niveau: système
+        duree_min: 15
+      createdAt: null
+      createdBy: null
+      updatedAt: null
+      updatedBy: null
+    status: FAIL
+    runId: TSYS-0005-run-0002
+    executedAt: '2026-07-07T11:00:00.000Z'
+    executedBy: Marc Dubois
+    resolvedParams:
+      req.id: PRD-0002
+      req.title: Vitesse d'essorage maximale
+      req.kpi_cible: 1400 tr/min
+  - entryId: TSYS-0005-3
+    testCaseId: TSYS-0005
+    requirementId: PRD-0003
+    testSnapshot:
+      id: TSYS-0005
+      projectId: ''
+      branchId: ''
+      objectTypeRef: root::test-systeme
+      title: Vérification des KPI produit (itératif par exigence)
+      status: approved
+      version: 1
+      preconditions: 'Exigence vérifiée : **{req.id}** — {req.title}.'
+      equipment: []
+      steps:
+        - order: 1
+          action: Relever la mesure correspondant à l'exigence {req.id}.
+          expectedResult: 'La mesure respecte le KPI cible : {req.kpi_cible}.'
+          notes: null
+        - order: 2
+          action: Consigner la mesure dans le rapport de campagne.
+          expectedResult: Mesure consignée avec la référence {req.id}.
+          notes: null
+      postconditions: ''
+      fields:
+        niveau: système
+        duree_min: 15
+      createdAt: null
+      createdBy: null
+      updatedAt: null
+      updatedBy: null
+    status: pending
+    resolvedParams:
+      req.id: PRD-0003
+      req.title: Consommation d'eau du programme Eco 40-60
+      req.kpi_cible: ≤ 45 L
+  - entryId: TSYS-0005-4
+    testCaseId: TSYS-0005
+    requirementId: PRD-0004
+    testSnapshot:
+      id: TSYS-0005
+      projectId: ''
+      branchId: ''
+      objectTypeRef: root::test-systeme
+      title: Vérification des KPI produit (itératif par exigence)
+      status: approved
+      version: 1
+      preconditions: 'Exigence vérifiée : **{req.id}** — {req.title}.'
+      equipment: []
+      steps:
+        - order: 1
+          action: Relever la mesure correspondant à l'exigence {req.id}.
+          expectedResult: 'La mesure respecte le KPI cible : {req.kpi_cible}.'
+          notes: null
+        - order: 2
+          action: Consigner la mesure dans le rapport de campagne.
+          expectedResult: Mesure consignée avec la référence {req.id}.
+          notes: null
+      postconditions: ''
+      fields:
+        niveau: système
+        duree_min: 15
+      createdAt: null
+      createdBy: null
+      updatedAt: null
+      updatedBy: null
+    status: pending
+    resolvedParams:
+      req.id: PRD-0004
+      req.title: Niveau sonore en essorage
+      req.kpi_cible: ≤ 74 dB(A)
+  - entryId: TSYS-0005-5
+    testCaseId: TSYS-0005
+    requirementId: PRD-0005
+    testSnapshot:
+      id: TSYS-0005
+      projectId: ''
+      branchId: ''
+      objectTypeRef: root::test-systeme
+      title: Vérification des KPI produit (itératif par exigence)
+      status: approved
+      version: 1
+      preconditions: 'Exigence vérifiée : **{req.id}** — {req.title}.'
+      equipment: []
+      steps:
+        - order: 1
+          action: Relever la mesure correspondant à l'exigence {req.id}.
+          expectedResult: 'La mesure respecte le KPI cible : {req.kpi_cible}.'
+          notes: null
+        - order: 2
+          action: Consigner la mesure dans le rapport de campagne.
+          expectedResult: Mesure consignée avec la référence {req.id}.
+          notes: null
+      postconditions: ''
+      fields:
+        niveau: système
+        duree_min: 15
+      createdAt: null
+      createdBy: null
+      updatedAt: null
+      updatedBy: null
+    status: pending
+    resolvedParams:
+      req.id: PRD-0005
+      req.title: Durée du programme Eco 40-60
+      req.kpi_cible: ≤ 3 h 45
+  - entryId: TSYS-0005-6
+    testCaseId: TSYS-0005
+    requirementId: SYS-0009
+    testSnapshot:
+      id: TSYS-0005
+      projectId: ''
+      branchId: ''
+      objectTypeRef: root::test-systeme
+      title: Vérification des KPI produit (itératif par exigence)
+      status: approved
+      version: 1
+      preconditions: 'Exigence vérifiée : **{req.id}** — {req.title}.'
+      equipment: []
+      steps:
+        - order: 1
+          action: Relever la mesure correspondant à l'exigence {req.id}.
+          expectedResult: 'La mesure respecte le KPI cible : {req.kpi_cible}.'
+          notes: null
+        - order: 2
+          action: Consigner la mesure dans le rapport de campagne.
+          expectedResult: Mesure consignée avec la référence {req.id}.
+          notes: null
+      postconditions: ''
+      fields:
+        niveau: système
+        duree_min: 15
+      createdAt: null
+      createdBy: null
+      updatedAt: null
+      updatedBy: null
+    status: pending
+    resolvedParams:
+      req.id: SYS-0009
+      req.title: Consommation en veille
+    unresolvedParams:
+      - ref: req.kpi_cible
+        reason: missing
+createdAt: '2026-07-07T08:00:00.000Z'

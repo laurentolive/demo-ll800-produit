@@ -1,0 +1,22 @@
+id: TSYS-0006-run-0001
+testCaseId: TSYS-0006
+campaignRunId: null
+result: PASS
+executedAt: '2026-07-04T09:00:00.000Z'
+executedBy: Marc Dubois
+duration: 2700
+equipmentUsed: []
+stepResults:
+  - order: 1
+    result: PASS
+    comment: ''
+    executedAt: '2026-07-04T09:00:00.000Z'
+  - order: 2
+    result: PASS
+    comment: ''
+    executedAt: '2026-07-04T09:00:00.000Z'
+  - order: 3
+    result: PASS
+    comment: ''
+    executedAt: '2026-07-04T09:00:00.000Z'
+notes: ''

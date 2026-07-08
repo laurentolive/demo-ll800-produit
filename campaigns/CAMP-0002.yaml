@@ -1,0 +1,282 @@
+id: CAMP-0002
+title: DVT — Essais de vérification design
+objectTypeRef: root::campagne-produit
+fields:
+  jalon: DVT
+  lieu: Laboratoire essais Lyon
+baselineRef: RE2
+component: root
+status: in_progress
+testCaseIds:
+  - TSYS-0002
+  - TSYS-0004
+  - TSYS-0006
+  - TSYS-0007
+  - TSYS-0008
+  - TSYS-0010
+  - TSYS-0011
+runs:
+  - entryId: TSYS-0002-1
+    testCaseId: TSYS-0002
+    testSnapshot:
+      id: TSYS-0002
+      projectId: ''
+      branchId: ''
+      objectTypeRef: root::test-systeme
+      title: Mesure de la vitesse d'essorage
+      status: approved
+      version: 1
+      preconditions: Charge nominale de {capacite_kg}, programme Coton.
+      equipment:
+        - id: eq-tacho
+          role: Tachymètre optique
+          description: Plage 0–3000 tr/min
+          required: true
+          quantity: 1
+      steps:
+        - order: 1
+          action: Lancer le programme Coton avec essorage maximal.
+          expectedResult: Le cycle atteint la phase d'essorage.
+          notes: null
+        - order: 2
+          action: Mesurer la vitesse du tambour au tachymètre pendant le palier.
+          expectedResult: Vitesse ≥ {vitesse_essorage} − 2 %, et ≤ {comp-moteur::vitesse_essorage_max}.
+          notes: Relever la valeur maximale sur 30 s.
+      postconditions: ''
+      fields:
+        niveau: système
+        duree_min: 20
+        moyens: Tachymètre
+      needsRevalidation: true
+      createdAt: null
+      createdBy: null
+      updatedAt: null
+      updatedBy: null
+    status: PASS
+    runId: TSYS-0002-run-0002
+    executedAt: '2026-07-02T10:00:00.000Z'
+    executedBy: Marc Dubois
+    resolvedParams:
+      capacite_kg: 8 kg
+      vitesse_essorage: 1400 tr/min
+      comp-moteur::vitesse_essorage_max: 1400 tr/min
+    paramSourceRef: RE2
+  - entryId: TSYS-0004-1
+    testCaseId: TSYS-0004
+    testSnapshot:
+      id: TSYS-0004
+      projectId: ''
+      branchId: ''
+      objectTypeRef: root::test-systeme
+      title: Mesure acoustique en essorage
+      status: approved
+      version: 1
+      preconditions: Salle semi-anéchoïque, machine sur socle normalisé.
+      equipment:
+        - id: eq-sono
+          role: Sonomètre
+          description: Classe 1 IEC 61672
+          required: true
+          quantity: 4
+      steps:
+        - order: 1
+          action: Lancer un essorage à vitesse maximale.
+          expectedResult: Palier de vitesse atteint.
+          notes: null
+        - order: 2
+          action: Mesurer la puissance acoustique selon IEC 60704-2-4.
+          expectedResult: L_WA < {niveau_sonore_essorage}.
+          notes: null
+      postconditions: ''
+      fields:
+        niveau: système
+        duree_min: 60
+        moyens: Sonomètre
+      createdAt: null
+      createdBy: null
+      updatedAt: null
+      updatedBy: null
+    status: PASS
+    runId: TSYS-0004-run-0002
+    executedAt: '2026-07-03T14:00:00.000Z'
+    executedBy: Marc Dubois
+    resolvedParams:
+      niveau_sonore_essorage: 74 dB(A)
+    paramSourceRef: RE2
+  - entryId: TSYS-0006-1
+    testCaseId: TSYS-0006
+    testSnapshot:
+      id: TSYS-0006
+      projectId: ''
+      branchId: ''
+      objectTypeRef: root::test-systeme
+      title: Verrouillage du hublot
+      status: approved
+      version: 1
+      preconditions: Machine alimentée, programme 60 °C.
+      equipment: []
+      steps:
+        - order: 1
+          action: Pendant le chauffage, attendre que l'eau atteigne 51 °C, puis tenter d'ouvrir le hublot.
+          expectedResult: Le hublot reste verrouillé.
+          notes: null
+        - order: 2
+          action: Pendant l'essorage, tenter d'ouvrir le hublot.
+          expectedResult: Le hublot reste verrouillé.
+          notes: null
+        - order: 3
+          action: En fin de cycle, eau < 45 °C et tambour arrêté, ouvrir le hublot.
+          expectedResult: Le hublot se déverrouille en moins de 2 min.
+          notes: null
+      postconditions: ''
+      fields:
+        niveau: intégration
+        duree_min: 45
+        moyens: Chambre climatique
+      createdAt: null
+      createdBy: null
+      updatedAt: null
+      updatedBy: null
+    status: PASS
+    runId: TSYS-0006-run-0001
+    executedAt: '2026-07-04T09:00:00.000Z'
+    executedBy: Marc Dubois
+  - entryId: TSYS-0007-1
+    testCaseId: TSYS-0007
+    testSnapshot:
+      id: TSYS-0007
+      projectId: ''
+      branchId: ''
+      objectTypeRef: root::test-systeme
+      title: Protection anti-débordement
+      status: approved
+      version: 1
+      preconditions: Électrovanne de lavage forcée ouverte par le banc.
+      equipment:
+        - id: eq-banc-hydrau
+          role: Banc hydraulique
+          description: Banc de forçage des électrovannes
+          required: true
+          quantity: 1
+      steps:
+        - order: 1
+          action: Forcer le remplissage au-delà du niveau de sécurité.
+          expectedResult: Les électrovannes se ferment en moins de 2 s.
+          notes: null
+        - order: 2
+          action: Observer la pompe de vidange.
+          expectedResult: La pompe démarre en moins de 2 s.
+          notes: null
+        - order: 3
+          action: Répéter 10 fois.
+          expectedResult: Aucune fuite constatée.
+          notes: null
+      postconditions: Remettre le banc en configuration nominale.
+      fields:
+        niveau: système
+        duree_min: 90
+        destructif: false
+        moyens: Banc hydraulique
+      createdAt: null
+      createdBy: null
+      updatedAt: null
+      updatedBy: null
+    status: INCOMPLETE
+    runId: TSYS-0007-run-0002
+    executedAt: '2026-07-06T09:00:00.000Z'
+    executedBy: Marc Dubois
+  - entryId: TSYS-0008-1
+    testCaseId: TSYS-0008
+    testSnapshot:
+      id: TSYS-0008
+      projectId: ''
+      branchId: ''
+      objectTypeRef: root::test-systeme
+      title: Détection de balourd
+      status: review
+      version: 1
+      preconditions: Masse de balourd de 500 g fixée sur la paroi du tambour.
+      equipment: []
+      steps:
+        - order: 1
+          action: Lancer un essorage.
+          expectedResult: Le système détecte le balourd à 300 tr/min.
+          notes: null
+        - order: 2
+          action: Observer la suite du cycle.
+          expectedResult: Redistribution puis essorage limité à 600 tr/min.
+          notes: null
+      postconditions: ''
+      fields:
+        niveau: endurance
+        duree_min: 600
+        destructif: true
+        moyens: Balance
+      createdAt: null
+      createdBy: null
+      updatedAt: null
+      updatedBy: null
+    status: pending
+  - entryId: TSYS-0010-1
+    testCaseId: TSYS-0010
+    testSnapshot:
+      id: TSYS-0010
+      projectId: ''
+      branchId: ''
+      objectTypeRef: root::test-systeme
+      title: Reprise après coupure secteur
+      status: approved
+      version: 1
+      preconditions: ''
+      equipment: []
+      steps:
+        - order: 1
+          action: Couper le secteur pendant la phase de rinçage.
+          expectedResult: La machine s'arrête.
+          notes: null
+        - order: 2
+          action: Rétablir le secteur après 30 s.
+          expectedResult: Le cycle reprend à la phase de rinçage.
+          notes: null
+      postconditions: ''
+      fields:
+        niveau: intégration
+        duree_min: 30
+      createdAt: null
+      createdBy: null
+      updatedAt: null
+      updatedBy: null
+    status: pending
+  - entryId: TSYS-0011-1
+    testCaseId: TSYS-0011
+    testSnapshot:
+      id: TSYS-0011
+      projectId: ''
+      branchId: ''
+      objectTypeRef: root::test-systeme
+      title: Bruit de la pompe de vidange
+      status: draft
+      version: 1
+      preconditions: Pompe alimentée sur banc, référence fournisseur {comp-inexistant::ref_pompe}.
+      equipment: []
+      steps:
+        - order: 1
+          action: Mesurer le bruit de la pompe pendant la vidange.
+          expectedResult: Bruit ≤ {comp-pompe-vidange::bruit_max}.
+          notes: null
+      postconditions: ''
+      fields:
+        niveau: intégration
+        duree_min: 30
+        moyens: Sonomètre
+      createdAt: null
+      createdBy: null
+      updatedAt: null
+      updatedBy: null
+    status: pending
+    unresolvedParams:
+      - ref: comp-inexistant::ref_pompe
+        reason: unknown_node
+      - ref: comp-pompe-vidange::bruit_max
+        reason: empty
+createdAt: '2026-07-01T08:00:00.000Z'

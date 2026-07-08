@@ -1,0 +1,18 @@
+id: TSYS-0004-run-0002
+testCaseId: TSYS-0004
+campaignRunId: null
+result: PASS
+executedAt: '2026-07-03T14:00:00.000Z'
+executedBy: Marc Dubois
+duration: 3600
+equipmentUsed: []
+stepResults:
+  - order: 1
+    result: PASS
+    comment: ''
+    executedAt: '2026-07-03T14:00:00.000Z'
+  - order: 2
+    result: PASS
+    comment: ''
+    executedAt: '2026-07-03T14:00:00.000Z'
+notes: L_WA = 73,1 dB(A) avec raidisseur.

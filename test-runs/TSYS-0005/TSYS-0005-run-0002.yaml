@@ -1,0 +1,19 @@
+id: TSYS-0005-run-0002
+testCaseId: TSYS-0005
+campaignRunId: null
+requirementId: PRD-0002
+result: FAIL
+executedAt: '2026-07-07T11:00:00.000Z'
+executedBy: Marc Dubois
+duration: 600
+equipmentUsed: []
+stepResults:
+  - order: 1
+    result: FAIL
+    comment: 1352 tr/min mesurés sur la machine n°4.
+    executedAt: '2026-07-07T11:00:00.000Z'
+  - order: 2
+    result: PASS
+    comment: ''
+    executedAt: '2026-07-07T11:00:00.000Z'
+notes: ''

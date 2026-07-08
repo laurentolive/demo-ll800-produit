@@ -1,0 +1,19 @@
+id: TSYS-0005-run-0001
+testCaseId: TSYS-0005
+campaignRunId: null
+requirementId: PRD-0001
+result: PASS
+executedAt: '2026-07-07T10:00:00.000Z'
+executedBy: Marc Dubois
+duration: 600
+equipmentUsed: []
+stepResults:
+  - order: 1
+    result: PASS
+    comment: ''
+    executedAt: '2026-07-07T10:00:00.000Z'
+  - order: 2
+    result: PASS
+    comment: ''
+    executedAt: '2026-07-07T10:00:00.000Z'
+notes: 8,03 kg.
