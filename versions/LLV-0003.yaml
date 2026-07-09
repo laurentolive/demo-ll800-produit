@@ -1,0 +1,22 @@
+id: LLV-0003
+objectTypeRef: root::version
+title: '1.1'
+status: en_cours
+version: 1
+basedOn: LLV-0001
+components:
+  comp-moteur: MOTV-0001
+  comp-pompe-vidange: POMV-0001
+  comp-module-wifi: WIFV-0001
+changes: []
+fields:
+  description: Correctif de la 1.0, avec endurance (CAMP-0004).
+history:
+  status:
+    - value: en_cours
+      at: '2026-07-09T07:00:10Z'
+      by: Marc Dubois
+  changes:
+    - value: []
+      at: '2026-07-09T07:00:11Z'
+      by: Marc Dubois

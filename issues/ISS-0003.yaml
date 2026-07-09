@@ -1,0 +1,18 @@
+id: ISS-0003
+projectId: ''
+branchId: ''
+objectTypeRef: root::issue
+title: Vitesse d'essorage sous le KPI sur la machine n°4
+status: ouverte
+version: 1
+fields:
+  gravite: majeure
+  description: 1352 tr/min mesurés par **TSYS-0005**, KPI à 1400 tr/min.
+origin:
+  runs:
+    - TSYS-0005-run-0002
+history:
+  status:
+    - value: ouverte
+      at: '2026-07-09T07:00:00Z'
+      by: Marc Dubois

@@ -414,3 +414,9 @@ links:
     targetId: SYS-0004
     createdAt: '2026-06-15T07:30:00.000Z'
     createdBy: Claire Martin
+  - id: lnk_1783497600060_2d0p
+    type: issue-impact
+    sourceId: ISS-0003
+    targetId: PRD-0002
+    createdAt: '2026-07-08T08:00:00.000Z'
+    createdBy: Marc Dubois

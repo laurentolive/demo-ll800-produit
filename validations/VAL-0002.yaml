@@ -1,0 +1,297 @@
+id: VAL-0002
+projectId: ''
+branchId: ''
+objectTypeRef: root::validation
+title: Validation 2.0
+status: en_cours
+versionId: LLV-0002
+fields: {}
+entries:
+  - requirementId: BIHM-0001
+    decision: conforme
+    contentHash: 1a95f0b355af75df
+    decidedBy: Marc Dubois
+    decidedAt: '2026-06-24T13:00:22.000Z'
+    carriedFrom: VAL-0001
+  - requirementId: BIHM-0002
+    decision: conforme
+    contentHash: b0a9fa613e46dbdf
+    decidedBy: Marc Dubois
+    decidedAt: '2026-06-24T13:00:24.000Z'
+    carriedFrom: VAL-0001
+  - requirementId: BIHM-0003
+    decision: conforme
+    contentHash: 04c39fc489184c12
+    decidedBy: Marc Dubois
+    decidedAt: '2026-06-24T13:00:26.000Z'
+    carriedFrom: VAL-0001
+  - requirementId: BIHM-0004
+    decision: conforme
+    contentHash: 306a99c2081cbcc5
+    decidedBy: Marc Dubois
+    decidedAt: '2026-06-24T13:00:28.000Z'
+    carriedFrom: VAL-0001
+  - requirementId: CC-0001
+    decision: conforme
+    contentHash: d1cf2fd6e49a25c2
+    decidedBy: Marc Dubois
+    decidedAt: '2026-06-24T13:00:30.000Z'
+    carriedFrom: VAL-0001
+  - requirementId: CC-0002
+    decision: conforme
+    contentHash: aae6c41a6c98bd4e
+    decidedBy: Marc Dubois
+    decidedAt: '2026-06-24T13:00:32.000Z'
+    carriedFrom: VAL-0001
+  - requirementId: CC-0003
+    decision: conforme
+    contentHash: 2677922c259d0cfb
+    decidedBy: Marc Dubois
+    decidedAt: '2026-06-24T13:00:34.000Z'
+    carriedFrom: VAL-0001
+  - requirementId: CC-0004
+    decision: conforme
+    contentHash: 36ca876cf6528ca3
+    decidedBy: Marc Dubois
+    decidedAt: '2026-06-24T13:00:36.000Z'
+    carriedFrom: VAL-0001
+  - requirementId: CC-0005
+    decision: conforme
+    contentHash: 5911e6a8390047e9
+    decidedBy: Marc Dubois
+    decidedAt: '2026-06-24T13:00:38.000Z'
+    carriedFrom: VAL-0001
+  - requirementId: EV-0001
+    decision: conforme
+    contentHash: a9ae5986d82a51a1
+    decidedBy: Marc Dubois
+    decidedAt: '2026-06-24T13:00:40.000Z'
+    carriedFrom: VAL-0001
+  - requirementId: EV-0002
+    decision: conforme
+    contentHash: 2ee343b4e99c61e1
+    decidedBy: Marc Dubois
+    decidedAt: '2026-06-24T13:00:42.000Z'
+    carriedFrom: VAL-0001
+  - requirementId: EV-0003
+    decision: conforme
+    contentHash: 7744b50324aff9e0
+    decidedBy: Marc Dubois
+    decidedAt: '2026-06-24T13:00:44.000Z'
+    carriedFrom: VAL-0001
+  - requirementId: HYD-0001
+    decision: conforme
+    contentHash: a8f4411bf2d8736b
+    decidedBy: Marc Dubois
+    decidedAt: '2026-06-24T13:00:46.000Z'
+    carriedFrom: VAL-0001
+  - requirementId: HYD-0002
+    decision: conforme
+    contentHash: cd0a6286ac175441
+    decidedBy: Marc Dubois
+    decidedAt: '2026-06-24T13:00:48.000Z'
+    carriedFrom: VAL-0001
+  - requirementId: HYD-0003
+    decision: conforme
+    contentHash: d6278c4050d313d9
+    decidedBy: Marc Dubois
+    decidedAt: '2026-06-24T13:00:50.000Z'
+    carriedFrom: VAL-0001
+  - requirementId: HYD-0004
+    decision: conforme
+    contentHash: 9ef1d02f550dae45
+    decidedBy: Marc Dubois
+    decidedAt: '2026-06-24T13:00:52.000Z'
+    carriedFrom: VAL-0001
+  - requirementId: IHM-0001
+    decision: conforme
+    contentHash: 67dd8ac2cd489dc9
+    decidedBy: Marc Dubois
+    decidedAt: '2026-06-24T13:00:54.000Z'
+    carriedFrom: VAL-0001
+  - requirementId: IHM-0002
+    decision: conforme
+    contentHash: 62a6212120d8fc6d
+    decidedBy: Marc Dubois
+    decidedAt: '2026-06-24T13:00:56.000Z'
+    carriedFrom: VAL-0001
+  - requirementId: IHM-0003
+    decision: conforme
+    contentHash: b72d9a06b1432ce7
+    decidedBy: Marc Dubois
+    decidedAt: '2026-06-24T13:00:58.000Z'
+    carriedFrom: VAL-0001
+  - requirementId: IHM-0004
+    decision: conforme
+    contentHash: 0e0aeb00ba22c60f
+    decidedBy: Marc Dubois
+    decidedAt: '2026-06-24T13:01:00.000Z'
+    carriedFrom: VAL-0001
+  - requirementId: PRD-0001
+    decision: conforme
+    contentHash: 4f7a9b55751667a4
+    decidedBy: Marc Dubois
+    decidedAt: '2026-06-24T13:01:02.000Z'
+    carriedFrom: VAL-0001
+  - requirementId: PRD-0003
+    decision: conforme
+    contentHash: 630896977ac65cbd
+    decidedBy: Marc Dubois
+    decidedAt: '2026-06-24T13:01:06.000Z'
+    carriedFrom: VAL-0001
+  - requirementId: PRD-0004
+    decision: conforme
+    contentHash: 302b232ea0fcd1af
+    decidedBy: Marc Dubois
+    decidedAt: '2026-06-24T13:01:08.000Z'
+    carriedFrom: VAL-0001
+  - requirementId: PRD-0005
+    decision: conforme
+    contentHash: 5385356b435e50b9
+    decidedBy: Marc Dubois
+    decidedAt: '2026-06-24T13:01:10.000Z'
+    carriedFrom: VAL-0001
+  - requirementId: PRD-0006
+    decision: conforme
+    contentHash: a0c03fb5aaff520e
+    decidedBy: Marc Dubois
+    decidedAt: '2026-06-24T13:01:12.000Z'
+    carriedFrom: VAL-0001
+  - requirementId: PRD-0007
+    decision: conforme
+    contentHash: a82323b5f0626b9b
+    decidedBy: Marc Dubois
+    decidedAt: '2026-06-24T13:01:14.000Z'
+    carriedFrom: VAL-0001
+  - requirementId: PRD-0008
+    decision: conforme
+    contentHash: b0d7b8e96d8aac3a
+    decidedBy: Marc Dubois
+    decidedAt: '2026-06-24T13:01:16.000Z'
+    carriedFrom: VAL-0001
+  - requirementId: PRD-0009
+    decision: conforme
+    contentHash: 1610348e51e306b4
+    decidedBy: Marc Dubois
+    decidedAt: '2026-06-24T13:01:18.000Z'
+    carriedFrom: VAL-0001
+  - requirementId: PRD-0012
+    decision: conforme
+    contentHash: 619d3c64161bd93e
+    decidedBy: Marc Dubois
+    decidedAt: '2026-06-24T13:01:22.000Z'
+    carriedFrom: VAL-0001
+  - requirementId: SW-0001
+    decision: conforme
+    contentHash: 3dad65640f25069c
+    decidedBy: Marc Dubois
+    decidedAt: '2026-06-24T13:01:26.000Z'
+    carriedFrom: VAL-0001
+  - requirementId: SW-0002
+    decision: conforme
+    contentHash: 5d9abc063f3d2b46
+    decidedBy: Marc Dubois
+    decidedAt: '2026-06-24T13:01:28.000Z'
+    carriedFrom: VAL-0001
+  - requirementId: SW-0003
+    decision: conforme
+    contentHash: 7cb6fd542b28abca
+    decidedBy: Marc Dubois
+    decidedAt: '2026-06-24T13:01:30.000Z'
+    carriedFrom: VAL-0001
+  - requirementId: SW-0004
+    decision: conforme
+    contentHash: c3043be76a3731dc
+    decidedBy: Marc Dubois
+    decidedAt: '2026-06-24T13:01:32.000Z'
+    carriedFrom: VAL-0001
+  - requirementId: SW-0005
+    decision: conforme
+    contentHash: 1cc9b12157f26c7c
+    decidedBy: Marc Dubois
+    decidedAt: '2026-06-24T13:01:34.000Z'
+    carriedFrom: VAL-0001
+  - requirementId: SW-0006
+    decision: conforme
+    contentHash: c3c352cc22ccd63e
+    decidedBy: Marc Dubois
+    decidedAt: '2026-06-24T13:01:36.000Z'
+    carriedFrom: VAL-0001
+  - requirementId: SYS-0001
+    decision: conforme
+    contentHash: 637dbbdfec7901b4
+    decidedBy: Marc Dubois
+    decidedAt: '2026-06-24T13:01:38.000Z'
+    carriedFrom: VAL-0001
+  - requirementId: SYS-0003
+    decision: conforme
+    contentHash: 0a413a32dd073965
+    decidedBy: Marc Dubois
+    decidedAt: '2026-06-24T13:01:42.000Z'
+    carriedFrom: VAL-0001
+  - requirementId: SYS-0005
+    decision: conforme
+    contentHash: 3e6c2d0f74832b7e
+    decidedBy: Marc Dubois
+    decidedAt: '2026-06-24T13:01:46.000Z'
+    carriedFrom: VAL-0001
+  - requirementId: SYS-0006
+    decision: conforme
+    contentHash: 87ae861d89ac667e
+    decidedBy: Marc Dubois
+    decidedAt: '2026-06-24T13:01:48.000Z'
+    carriedFrom: VAL-0001
+  - requirementId: SYS-0007
+    decision: conforme
+    contentHash: c93c502045fdcddc
+    decidedBy: Marc Dubois
+    decidedAt: '2026-06-24T13:01:50.000Z'
+    carriedFrom: VAL-0001
+  - requirementId: SYS-0008
+    decision: conforme
+    contentHash: 8df498f67acca6a8
+    decidedBy: Marc Dubois
+    decidedAt: '2026-06-24T13:01:52.000Z'
+    carriedFrom: VAL-0001
+  - requirementId: SYS-0009
+    decision: conforme
+    contentHash: 5d6108f0f249bb6c
+    decidedBy: Marc Dubois
+    decidedAt: '2026-06-24T13:01:54.000Z'
+    carriedFrom: VAL-0001
+  - requirementId: SYS-0010
+    decision: conforme
+    contentHash: ac7293212002560a
+    decidedBy: Marc Dubois
+    decidedAt: '2026-06-24T13:01:56.000Z'
+    carriedFrom: VAL-0001
+  - requirementId: SYS-0011
+    decision: conforme
+    contentHash: 5a7afc535e914790
+    decidedBy: Marc Dubois
+    decidedAt: '2026-06-24T13:01:58.000Z'
+    carriedFrom: VAL-0001
+  - requirementId: SYS-0012
+    decision: conforme
+    contentHash: 2584701db2681c70
+    decidedBy: Marc Dubois
+    decidedAt: '2026-06-24T13:02:00.000Z'
+    carriedFrom: VAL-0001
+  - requirementId: SYS-0013
+    decision: conforme
+    comment: Proposé après relecture des essais DVT.
+    contentHash: 0a0ac25ee0ea2be4
+    proposed: true
+    proposedBy: Marc Dubois
+    proposedAt: '2026-07-09T07:00:08.000Z'
+  - requirementId: SYS-0014
+    decision: conforme
+    contentHash: e0d5bb446ac543b2
+    decidedBy: Marc Dubois
+    decidedAt: '2026-06-24T13:02:04.000Z'
+    carriedFrom: VAL-0001
+history:
+  status:
+    - value: en_cours
+      at: '2026-07-09T07:00:05Z'
+      by: Marc Dubois

@@ -8,7 +8,13 @@ components:
   comp-moteur: MOTV-0001
   comp-pompe-vidange: POMV-0001
   comp-module-wifi: WIFV-0001
-changes: []
+changes:
+  - id: ISS-0003
+  - id: ISS-0002
+  - id: PRD-0013
+    base:
+      sha: 6f8d10e588dcc599d708dba142217e6d57d666e9
+      version: 1
 fields:
   description: Essorage 1400 tr/min confirmé, pilotage à distance.
 history:
@@ -20,3 +26,13 @@ history:
     - value: []
       at: '2026-06-25T07:00:02Z'
       by: Claire Martin
+    - value:
+        - ISS-0002
+        - ISS-0003
+        - PRD-0013
+      at: '2026-07-09T07:00:02Z'
+      by: Marc Dubois
+impacted:
+  - id: SYS-0002
+    status: impact_a_tester
+    comment: À rejouer après la correction de vitesse.
