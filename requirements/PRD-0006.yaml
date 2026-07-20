@@ -4,11 +4,11 @@ branchId: ''
 objectTypeRef: root::exigence-produit
 title: Départ différé
 status: review
-version: 1
+version: 2
 fields:
   statement: |-
     WHERE l'option départ différé est sélectionnée
-    THE lave-linge SHALL démarrer le cycle après le délai choisi, réglable de 1 h à 24 h par pas de 1 h.
+    THE lave-linge SHALL démarrer le cycle après le délai choisi, réglable de 30 min à 24 h par pas de 30 min.
   priority: medium
   source: Retour terrain
   marches: EU, US, CN, JP
