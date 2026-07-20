@@ -1,0 +1,136 @@
+id: CAMP-0005
+title: PVT — Présérie
+objectTypeRef: root::campagne-produit
+fields:
+  jalon: PVT
+  lieu: Usine
+component: root
+status: planned
+testCaseIds:
+  - TSYS-0001
+  - TSYS-0009
+  - TSYS-0003
+runs:
+  - entryId: TSYS-0001-1
+    testCaseId: TSYS-0001
+    testSnapshot:
+      id: TSYS-0001
+      projectId: ''
+      branchId: ''
+      objectTypeRef: root::test-systeme
+      title: Mesure de la capacité de charge
+      status: approved
+      version: 1
+      preconditions: Charge normalisée EN 60456 conditionnée 24 h à 20 °C / 65 % HR.
+      equipment:
+        - id: eq-balance
+          role: Balance
+          description: Balance 0–20 kg, résolution 10 g
+          required: true
+          quantity: 1
+      steps:
+        - order: 1
+          action: Peser la charge de linge sec.
+          expectedResult: Masse = {capacite_kg} ± 1 %
+          notes: null
+        - order: 2
+          action: Introduire la charge dans le tambour et fermer le hublot.
+          expectedResult: Hublot fermé sans effort anormal.
+          notes: null
+        - order: 3
+          action: Lancer le programme Coton 40 °C.
+          expectedResult: Le cycle démarre sans défaut de balourd.
+          notes: null
+      postconditions: Vider le tambour, consigner la masse mesurée.
+      fields:
+        niveau: système
+        duree_min: 30
+        destructif: false
+        moyens: Balance
+      createdAt: null
+      createdBy: null
+      updatedAt: null
+      updatedBy: null
+    status: pending
+    resolvedParams:
+      capacite_kg: 8 kg
+  - entryId: TSYS-0009-1
+    testCaseId: TSYS-0009
+    testSnapshot:
+      id: TSYS-0009
+      projectId: ''
+      branchId: ''
+      objectTypeRef: root::test-systeme
+      title: Consommation en veille
+      status: approved
+      version: 1
+      preconditions: Machine en veille depuis 30 min.
+      equipment:
+        - id: eq-watt
+          role: Wattmètre
+          description: Classe 0,5, résolution 10 mW
+          required: true
+          quantity: 1
+      steps:
+        - order: 1
+          action: Mesurer la puissance moyenne sur 10 min.
+          expectedResult: Puissance < {puissance_veille_max}.
+          notes: null
+      postconditions: ''
+      fields:
+        niveau: système
+        duree_min: 20
+        moyens: Wattmètre
+      createdAt: null
+      createdBy: null
+      updatedAt: null
+      updatedBy: null
+    status: pending
+    resolvedParams:
+      puissance_veille_max: 0.5 W
+  - entryId: TSYS-0003-1
+    testCaseId: TSYS-0003
+    testSnapshot:
+      id: TSYS-0003
+      projectId: ''
+      branchId: ''
+      objectTypeRef: root::test-systeme
+      title: Consommation d'eau Eco 40-60
+      status: approved
+      version: 1
+      preconditions: Charge d'essai de {charge_essai}, eau à 15 °C ± 2 °C.
+      equipment:
+        - id: eq-debitmetre
+          role: Débitmètre
+          description: Compteur volumétrique classe B
+          required: true
+          quantity: 1
+      steps:
+        - order: 1
+          action: Lancer le programme Eco 40-60.
+          expectedResult: Le cycle démarre.
+          notes: null
+        - order: 2
+          action: Relever le volume d'eau consommé en fin de cycle.
+          expectedResult: Volume ≤ {consommation_eau_eco}.
+          notes: null
+        - order: 3
+          action: Relever la durée du cycle.
+          expectedResult: Durée ≤ {duree_programme_eco}.
+          notes: null
+      postconditions: Répéter 3 fois et consigner la moyenne.
+      fields:
+        niveau: système
+        duree_min: 240
+        moyens: Banc hydraulique, Balance
+      createdAt: null
+      createdBy: null
+      updatedAt: null
+      updatedBy: null
+    status: pending
+    paramValues:
+      charge_essai: ''
+    resolvedParams:
+      consommation_eau_eco: 45 L
+      duree_programme_eco: 225 min
+createdAt: '2026-07-20T08:00:00.000Z'

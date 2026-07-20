@@ -4,7 +4,7 @@ dependencies:
     pin: main
   - name: comp-pompe-vidange
     url: https://github.com/laurentolive/demo-ll800-comp-pompe-vidange.git
-    pin: main
+    pin: v2.0
     localParent: hydraulique
   - name: comp-module-wifi
     url: https://github.com/laurentolive/demo-ll800-comp-module-wifi.git
