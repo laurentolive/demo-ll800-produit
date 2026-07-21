@@ -1,7 +1,7 @@
 id: LLV-0003
 objectTypeRef: root::version
 title: '1.1'
-status: en_cours
+status: abandonnee
 version: 1
 basedOn: LLV-0001
 components:
@@ -16,6 +16,9 @@ history:
     - value: en_cours
       at: '2026-07-09T07:00:10Z'
       by: Marc Dubois
+    - value: abandonnee
+      at: '2026-07-21T12:00:00Z'
+      by: Claire Martin
   changes:
     - value: []
       at: '2026-07-09T07:00:11Z'
