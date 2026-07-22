@@ -1,0 +1,15 @@
+id: PRD-0014
+projectId: ''
+branchId: ''
+objectTypeRef: root::exigence-produit
+title: Programme vapeur anti-froissage
+status: draft
+version: 1
+fields:
+  statement: |-
+    WHERE le programme vapeur est sélectionné
+    THE lave-linge SHALL injecter de la vapeur pendant les 10 dernières minutes du cycle.
+  priority: low
+  source: Marketing
+  marches: CN, JP
+jiraLinks: []

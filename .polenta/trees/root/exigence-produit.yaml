@@ -59,6 +59,11 @@ root:
         name: Séchage intégré
         objectId: PRD-0013
         children: []
+      - id: 8d1e60a2-7736-479b-a1b6-aa1eaafdcb3e
+        kind: item
+        name: Programme vapeur anti-froissage
+        objectId: PRD-0014
+        children: []
   - id: c7214f6e-1be8-407c-a7e6-4b955e363a6c
     kind: folder
     name: Réglementaire
