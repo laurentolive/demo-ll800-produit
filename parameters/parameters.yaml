@@ -39,6 +39,6 @@ parameters:
     unit: V
     description: Tension secteur nominale
   vitesse_essorage:
-    value: '1400'
+    value: '1600'
     unit: tr/min
     description: Vitesse d'essorage maximale annoncée
